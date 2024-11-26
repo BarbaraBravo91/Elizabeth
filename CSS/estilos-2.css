@@ -38,7 +38,7 @@ header {
 
 }
 #inicio{
-    background-image: url(imagenes/fotos\ ely\ para\ web_home2.png);
+    background-image: url(/imagenes/fotos\ ely\ para\ web_home2.png);
     background-repeat: no-repeat;
     background-position: 800px 80px;
     background-size: 750px;
@@ -95,7 +95,7 @@ h3 {
     font-size: 100px;
     font-weight: 700px;
     line-height: 0.95em;
-    background-image: url(imagenes/PNG/Miscelaneas\ ES_estrella\ amarilla.png);
+    background-image: url(/imagenes/PNG/Miscelaneas\ ES_estrella\ amarilla.png);
     background-repeat: no-repeat;
     /* background-position:right; */
     background-position-y: -5px;
@@ -554,7 +554,7 @@ background-size: 25%;  */
 
     /* border-top: 0px solid #FF5C22; */
 
-    background-image: url(imagenes/PNG/Miscelaneas\ ES_estrella\ naranja.png);
+    background-image: url(/imagenes/PNG/Miscelaneas\ ES_estrella\ naranja.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 5%;
@@ -592,7 +592,7 @@ background-size: 25%;  */
     padding-top: 0px;
     padding-right: 400px;
     padding-left: -200px;
-    background-image: url(imagenes/captura.png);
+    background-image: url(/imagenes/captura.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 90%;
@@ -749,7 +749,7 @@ padding: 50px 0px 0px ;
 margin-top: 0px;
     text-align: left;
     padding-left: 200px;
-    background-image: url(imagenes/fondo\ miscelaneas\ \(1\).png);
+    background-image: url(/imagenes/fondo\ miscelaneas\ \(1\).png);
     background-repeat: no-repeat;
   background-size:100%;
     background-color: #f3f4ee;
@@ -796,9 +796,9 @@ background-size: 5%; */
     margin-right: 10px;
     border: 1px solid #FF5C22;
     border-radius: 10%;
-    background-image: url(imagenes/PNG/);
+    background-image: url(/imagenes/PNG/);
     padding: 50px 50px 50px 50px;
-    background-image: url(imagenes/PNG/Miscelaneas\ ES_misc1-violeta.png);
+    background-image: url(/imagenes/PNG/Miscelaneas\ ES_misc1-violeta.png);
     background-repeat: no-repeat;
     background-position: -10px -10px;
     background-size: 5%;
@@ -997,7 +997,7 @@ overflow: hidden;
 }
 #palabras-item-3 p{
     color: #f3f4ee;
-    background-image: url(imagenes/PNG/Miscelaneas\ ES_estrella\ amarilla.png);
+    background-image: url(/imagenes/PNG/Miscelaneas\ ES_estrella\ amarilla.png);
     background-repeat: no-repeat;
     background-position: left top;
 
@@ -1185,7 +1185,7 @@ padding:0px;
     flex-direction: column;
     padding: 15px;
     align-items: center;
-    background-image: url(imagenes/PNG/Miscelaneas\ ES_miscelanea\ nombre\ blanco.png);
+    background-image: url(/imagenes/PNG/Miscelaneas\ ES_miscelanea\ nombre\ blanco.png);
     background-repeat: no-repeat;
     background-size: 6%;
     background-position: bottom;
@@ -1229,7 +1229,7 @@ padding:0px;
   
     background-color: #f3f4ee;
     padding: 75px;
-    background-image: url(imagenes/PNG/Miscelaneas\ ES_misc1-naranja.png);
+    background-image: url(/imagenes/PNG/Miscelaneas\ ES_misc1-naranja.png);
     background-repeat: no-repeat;
     background-position-x:50px ;
     background-position-y:900px ;
