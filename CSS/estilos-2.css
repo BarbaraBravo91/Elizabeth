@@ -38,7 +38,7 @@ header {
 
 }
 #inicio{
-    background-image: url(/imagenes/fotos\ ely\ para\ web_home2.png);
+    background-image: url(imagenes/fotos\ ely\ para\ web_home2.png);
     background-repeat: no-repeat;
     background-position: 800px 80px;
     background-size: 750px;
@@ -1185,7 +1185,7 @@ padding:0px;
     flex-direction: column;
     padding: 15px;
     align-items: center;
-    background-image: url(/imagenes/PNG/Miscelaneas\ ES_miscelanea\ nombre\ blanco.png);
+    background-image: url(imagenes/PNG/Miscelaneas\ ES_miscelanea\ nombre\ blanco.png);
     background-repeat: no-repeat;
     background-size: 6%;
     background-position: bottom;
@@ -1229,7 +1229,7 @@ padding:0px;
   
     background-color: #f3f4ee;
     padding: 75px;
-    background-image: url(/imagenes/PNG/Miscelaneas\ ES_misc1-naranja.png);
+    background-image: url(imagenes/PNG/Miscelaneas\ ES_misc1-naranja.png);
     background-repeat: no-repeat;
     background-position-x:50px ;
     background-position-y:900px ;
