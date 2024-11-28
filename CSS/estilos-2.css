@@ -747,7 +747,7 @@ padding: 50px 0px 0px ;
     height: 950px;
 margin-top: 0px;
     text-align: left;
-    padding-left: 200px;
+
     background-image: url(../imagenes/fondo\ miscelaneas\ \(1\).png);
     background-repeat: no-repeat;
   background-size:100%;
@@ -760,7 +760,7 @@ margin-top: 0px;
     text-align: center;
     align-items: center;
 
-    padding-left: -200px;
+    padding-left: 50px;
     padding-top: 100px;
     height: 300px;
 
@@ -780,7 +780,7 @@ background-size: 5%; */
     text-align: left;
     margin-left: -200px;
     width: 1379px;
-
+    padding-left: 200px;
 
 }
 
