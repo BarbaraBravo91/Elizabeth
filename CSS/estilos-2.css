@@ -1055,12 +1055,10 @@ overflow: hidden;
 
 }
 
-.serviciostitulo {
+.serviciostitulo p {
 
-    /* display: flex;
-    animation: scroll 50s linear infinite;
-    */
-
+  text-align: center;
+  font-size: 35px;
 }
 .servicios-subtitulo {
     display: flex;
