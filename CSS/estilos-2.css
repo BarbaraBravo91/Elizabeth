@@ -1136,7 +1136,7 @@ padding:0px;
     border-radius: 50px;
 }
 
-#colum1 {
+.colum1 {
     width: 700px;
     display: flex;
     flex-direction: column;
