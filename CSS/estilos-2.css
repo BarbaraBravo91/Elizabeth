@@ -1103,30 +1103,25 @@ border-radius: 25px;
     flex-direction: row;
     width: 100%; 
     align-items: center;
+justify-content: space-around;
     color: #161616;
     height: 700px;
     text-align: left;
-   
+   align-items: center;
     padding-left: 0px;
     padding-right: 0px;
 
     background-color: #f3f4ee;
-    /* background-image: url(/imagenes/PNG/Miscelaneas\ ES_miscelanea\ nombre\ negro.png);
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position-y:-10%;
-     */
-
-
 }
 
-#colum2 {
+.colum2 {
     display: flex;
     height: 550px;
 padding:0px;
-   border-radius: 25px;
+border-radius: 25px;
 }
-#colum2 img{
+
+.colum2 img{
     height: 500px;
     margin-top: -50px;
     padding: 30px;
