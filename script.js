@@ -1,20 +1,10 @@
-const imageUrls = [
-    'https://picsum.photos/120/80?random=1',
-    'https://picsum.photos/120/80?random=2',
-    'https://picsum.photos/120/80?random=3',
-    'https://picsum.photos/120/80?random=4',
-    'https://picsum.photos/120/80?random=5',
-    'https://picsum.photos/120/80?random=6',
-    'https://picsum.photos/120/80?random=7',
-    'https://picsum.photos/120/80?random=8',
-    'https://picsum.photos/120/80?random=9',
-    'https://picsum.photos/120/80?random=10',
-    'https://picsum.photos/120/80?random=11',
-    'https://picsum.photos/120/80?random=12',
-    'https://picsum.photos/120/80?random=13',
-    'https://picsum.photos/120/80?random=14',
-    'https://picsum.photos/120/80?random=15'
-];
+
+function toggleMenu() {
+  const navItems = document.querySelector('.nav-items');
+  navItems.classList.toggle('active');
+}
+
+
 let currentIndex = 0; // Índice de la imagen actual
 const imgElement = document.getElementById('slideshow-image'); // Selecciona el nuevo <img> para el slideshow
 
@@ -105,3 +95,4 @@ function updateCarousel() {
 .carousel-item img{
    width: 00px;
 }
+

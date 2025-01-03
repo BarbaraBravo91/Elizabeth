@@ -7,6 +7,7 @@
     <title>Nombre del Sitio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/estilos-2.css">
+        <link rel="stylesheet" href="CSS/estilos-mq.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scales=1.0">
   </head>
@@ -21,12 +22,15 @@
                 <div class="logo">
                     <a href="#"><img src="imagenes/PNG (logos)/Logo ES_isologo color.png" alt="Logo" /></a>
                 </div>
+                <button class="hamburguesa">☰</button>
+
                 <ul class="nav-items">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sobre-mi">Sobre mí</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
+      
                 <div class="social-buttons">
                     <a href="https://www.instagram.com/elybla/">
                         <img src="imagenes/logotipo-de-instagram.png" alt="Instagram" class="social-logo" />
@@ -598,7 +602,12 @@
             </div>
 
         </footer>
-
+        <script>
+            function toggleMenu() {
+                const navItems = document.querySelector('.nav-items');
+                navItems.classList.toggle('active');
+            }
+        </script>
 </body>
 
 </html>
