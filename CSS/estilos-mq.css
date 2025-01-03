@@ -1,26 +1,25 @@
 
 @media (max-width: 576px) {
     #inicio{
-        height: 500px;
+        height: 600px;
         margin: 0;
         
     }
     .header-content {
         display: flex;
         flex-direction: column;
-      
+      margin:25px;
         h1{
             font-size: 20px;
             font-weight: 10px;
             padding: 5%;
             padding-bottom: 0%;
-            margin: 5px;
-            margin-top: -125px;
+           
         }
 
         p {
             font-size: 12px; /* Tamaño de fuente de los párrafos */
-         padding-left:55px;
+         padding-left:15px;
          padding-top: -55px;
          padding-right: 25px;
          margin: 0px;
@@ -32,9 +31,9 @@
 
     .cta-button {
        
-            font-size: 5px;
+            font-size: 15px;
                 width: 150px; /* Ajustar el tamaño del botón */
-        margin: 0 auto; /* Centrar el botón */
+        margin-left: 0px; 
        
     }
 
@@ -42,7 +41,7 @@
         flex-direction: row; /* Cambiar a columna para el menú hamburguesa */
         position: absolute;
         justify-content: space-between;
-       margin-top: -150px;
+       margin-top: 0px;
 
       
     }
@@ -66,9 +65,7 @@
 
     
 
-.nav{
-    
-}
+
 
     .nav-items {
        
@@ -162,4 +159,27 @@ h1{
         }
         
       
-          } */
+          } 
+          
+@media(max-width:768px){
+    .lohabiaspensado {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+      
+    }
+    .lohabiaspensado1{
+font-size: 35px;
+padding: 0%;
+margin: 5px;
+width: 100%;
+text-align: left;
+    }
+    .lohabiaspensado2 {
+        text-align: left;
+        font-size: 10ps;
+      padding: 1%;
+    
+    }
+}
+
