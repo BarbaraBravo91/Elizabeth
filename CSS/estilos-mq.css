@@ -223,8 +223,20 @@ text-align: left;
 }
 /*Conoceme*/
 
-@media(max-width:578px){
+@media (max-width:578px){
+    .conoceme-titulo{
+        padding: 50px;
+        padding-bottom: 0;
+        font-size: 25px;
+    }
+    .conoceme-parrafo{
+        padding: 50px;
+        padding-top: 15px;
+        padding-bottom: 75px;
+        font-size: 15px;
+    }
     .contenedorGeneral{
+        padding: 0;
         display: flex;
         flex-direction: column;
         height: 2000px;
@@ -232,24 +244,46 @@ text-align: left;
     .numeros-section{
         display: flex;
         flex-direction: column;
-        padding: 0;
-    }´
+        padding: 0px;
+    }
+    .numeros-contenedor{
+
+    }
 .numeros-1{
-    padding: 100px;
-    margin-top: 50px;
+    /* padding: 100px;
+    padding-left: 75px;
+    margin-top: 50px; */
+  margin-bottom: -100px;
 }
 .numeros-2{
-    padding-left: 280px;
-    margin-top: -185px;
+    width: 300px;
+    padding: 50px 50px 0px 50px;
+   margin-top: -50px;
+   
+   
 }
 
 .trampolin{
-    margin-left:-255px;
+    width: 100%;
+margin-left:10px;
+margin-top: 15px;
+margin-right: 5px;
+margin-bottom: 0;
+  padding: 0;
+    font-size: 25px;
 }
 .palabras-item-3{
-   img{
-    
-   }
-    
+
+}
+.img-palabras{
+    margin-top: -25px;
+    padding-left:10px;
+    padding-top: 200px;
+    width: 400px;
+}
+.palabra-p1{
+    width: 300px;
+    font-size: 15px;
+    margin: 0;
 }
 }

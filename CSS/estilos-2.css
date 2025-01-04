@@ -1052,7 +1052,7 @@ overflow: hidden;
     background-position: left top;
 
 }
-#palabras-item-3 img{
+.img-palabras{
 
     width: 550px;
     padding:100px;
