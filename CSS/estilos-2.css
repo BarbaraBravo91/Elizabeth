@@ -81,7 +81,7 @@ h2 {
 
 h3 {    text-align: left;
     color: #FF5C22;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 700px;
     line-height: 0.95em;
     background-image: url(../imagenes/PNG/Miscelaneas\ ES_estrella\ amarilla.png);
@@ -394,8 +394,9 @@ width:100%;
 
 .elemento p {
 
-    font-size: 70px;
-    padding-top: 100px;
+    font-size: 50px;
+    padding: 30px;
+    padding-left: 0;
     width: 100%;
 
 }
@@ -405,10 +406,7 @@ width:100%;
     height: 700px;
     padding-top: 50px;
     padding-left: 0px;
-    /* background-image: url(/imagenes/PNG/Miscelaneas\ ES_trama2.png);
-background-repeat: no-repeat;
-background-position: bottom;
-background-size: 65%; */
+
 }
 
 .caja2 {
@@ -432,65 +430,12 @@ background-size: 25%;  */
     /* border: solid #E0A5FF; */
 
 }
-@media(max-width:578px){
-    #contenedor {
-        width:100%;
-            display: flex;
-            flex-direction: column;
-            align-items:left;
-            margin: 0%;
-        }
-    .about-image{
-        height: 500px;
-        margin-top: -100px;
-        padding-left: 0;
-       
-    }
-    #caja1 {
-        align-self: center;
-        height: 200px;
-        padding-top: 0px;
-        padding-left: 0px;
-      
-    }
-    .caja2 {
-        width: 100%;
-        height: 600px;
-        padding: 50px 50px ;
-       
-        margin: 50;
-     p {
-        font-size: 20px;
-        margin-left: 50px;
-     }
-     #caja3 {
-        margin-left: -100px;
-        font-size: 20px;
-     }
-   .caja-p{
-    margin-left: 100px;
-   }
-    .elemento{
-        width:100% ;
-        height: 500px;
-        padding: 15px;
-        margin:100px;
-         
-        p{
-            font-size: 20px;
-            padding-top: 0px;
-            width: 100%;
-        
-        
-        }
-       
-    }
+@media (min-width: 500px) and (max-width:768px){
+   
+}
 
     }
-    h3{
-        font-size: 80px;
-     }
-}
+  
 
 
 /* #estrella-1{
@@ -500,15 +445,15 @@ background-size: 25%;  */
    text-align: left;
 
 } */
-#caja-p {
+.caja-p {
 
     height: 10px;
     /* font-size: 1rem; */
     text-align: left;
-    padding: 10px;
+    padding: 0px;
     text-align: left;
-
-    font-size: 1.5rem;
+margin: 0;
+    font-size: 0px;
     /* margin-top: -50px;
     padding-top: -15px; */
 }
@@ -532,15 +477,6 @@ background-size: 25%;  */
 }
 
 #caja3 {
-    /* height: 700px; */
-
-    /*    
-        background-color: white;
-        margin-top: 3%;
-        margin-left: 5%;
-        margin-bottom: 10%;
-        margin-right: 0%;
-        border-radius: 0% 50% 0% 50%; */
 
 }
 
@@ -548,7 +484,7 @@ background-size: 25%;  */
     text-align: left;
 
     font-size: 1rem;
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 10px;
 }
 
@@ -824,7 +760,7 @@ background-position-x: 0%;
 background-size: 5%; */
 }
 
-#problem-colum-2 {
+.problem-colum-2 {
    
     display: flex;
     flex-direction: row;
@@ -833,6 +769,10 @@ background-size: 5%; */
     width: 1379px;
     padding-left: 200px;
 
+
+}
+.problem-colum-2 p{
+    font-size: 1rem;
 }
 
 .problem-item {
@@ -856,6 +796,68 @@ background-size: 5%; */
 
 }
 
+.problem-item2 {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #FF5C22;
+    border-radius: 10%;
+    background-image: url(../imagenes/PNG/);
+    padding: 50px 50px 50px 50px;
+    background-image: url(../imagenes/PNG/Miscelaneas\ ES_misc1-violeta.png);
+    background-repeat: no-repeat;
+    background-position: -10px -10px;
+    background-size: 5%;
+
+
+}
+
+.problem-item3 {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #FF5C22;
+    border-radius: 10%;
+    background-image: url(../imagenes/PNG/);
+    padding: 50px 50px 50px 50px;
+    background-image: url(../imagenes/PNG/Miscelaneas\ ES_misc1-violeta.png);
+    background-repeat: no-repeat;
+    background-position: -10px -10px;
+    background-size: 5%;
+
+
+}
+
+.problem-item4 {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #FF5C22;
+    border-radius: 10%;
+    background-image: url(../imagenes/PNG/);
+    padding: 50px 50px 50px 50px;
+    background-image: url(../imagenes/PNG/Miscelaneas\ ES_misc1-violeta.png);
+    background-repeat: no-repeat;
+    background-position: -10px -10px;
+    background-size: 5%;
+
+
+}
 .problem-item p {
 
     font-size: 1rem;
@@ -1274,7 +1276,7 @@ border-radius: 25px;
     background-image: url(../imagenes/PNG/Miscelaneas\ ES_misc1-naranja.png);
     background-repeat: no-repeat;
     background-position-x:50px ;
-    background-position-y:900px ;
+    background-position-y:800px ;
     background-size: 10%;
 }
 
@@ -1287,7 +1289,7 @@ border-radius: 75px;
     background-color: #FFB217 ;
     padding-left: 50px;
     padding-right: 100px;
-    height: 900px;
+    height: 800px;
 
 
 }
