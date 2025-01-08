@@ -85,14 +85,3 @@ function updateCarousel() {
   carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
 }
 
-
-.carousel{
-    background-color: #161616;
-    width: 1520px;
-    align-items: center;
-    padding: 50px;
-}
-.carousel-item img{
-   width: 00px;
-}
-
