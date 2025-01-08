@@ -235,11 +235,7 @@ h3 {
 
     color: #f3f4ee;
     text-align: center;
-<<<<<<< HEAD
     text-align: center;
-=======
-text-align: center;
->>>>>>> aab5d167883fc329a238fcd5fd1aae008787c40c
     background-color: #161616;
     /* border-radius: 25px; */
     height: 20px;
@@ -1194,15 +1190,11 @@ p u {
     .hero-header .side-title {
         display: none;
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> aab5d167883fc329a238fcd5fd1aae008787c40c
     .lohabiaspensado {
         display: flex;
         flex-direction: column;
         height: 300px;
-<<<<<<< HEAD
 
     }
 
@@ -1281,24 +1273,6 @@ p u {
         }
     }
 
-=======
-      
-    }
-    .lohabiaspensado1{
-font-size: 38px;
-padding: 25px;
-margin: 0;
-width: 100%;
-text-align: left;
-    }
-    .lohabiaspensado2 {
-        text-align: left;
-        font-size: 25px;
-      padding: 25px;
-      margin: 0;
-    
-    }
->>>>>>> aab5d167883fc329a238fcd5fd1aae008787c40c
 }
 
 @media only screen and (max-width: 767px) {
@@ -1348,7 +1322,6 @@ text-align: left;
         display: flex;
         flex-direction: column;
         height: 300px;
-<<<<<<< HEAD
 
     }
 
@@ -1445,22 +1418,3 @@ text-align: left;
 
     }
 }
-=======
-      
-    }
-    .lohabiaspensado1{
-font-size: 28px;
-padding: 25px;
-margin: 0;
-width: 100%;
-text-align: left;
-    }
-    .lohabiaspensado2 {
-        text-align: left;
-        font-size: 15px;
-      padding: 25px;
-      margin: 0;
-    
-    }
-}
->>>>>>> aab5d167883fc329a238fcd5fd1aae008787c40c
