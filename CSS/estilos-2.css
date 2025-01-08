@@ -177,7 +177,8 @@ h3 {
 }
 
 .logo img {
-    height: auto; /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Ajusta el tamaño del logo */
     width: 183px;
     align-items: start;
 }
@@ -200,7 +201,8 @@ h3 {
 }
 
 .nav-items a:hover {
-    color: var(--violeta); /* Color dorado al pasar el cursor */
+    color: var(--violeta);
+    /* Color dorado al pasar el cursor */
 }
 
 .social-buttons {
@@ -209,12 +211,15 @@ h3 {
 }
 
 .social-logo {
-    height: 20px; /* Ajusta el tamaño del logotipo */
-    margin-left: 15px; /* Espaciado entre logos */
+    height: 20px;
+    /* Ajusta el tamaño del logotipo */
+    margin-left: 15px;
+    /* Espaciado entre logos */
 }
 
 .social-logo:hover {
-    opacity: 0.8; /* Efecto al pasar el cursor */
+    opacity: 0.8;
+    /* Efecto al pasar el cursor */
 }
 
 
@@ -227,20 +232,21 @@ h3 {
 }
 
 .company-p {
+
     color: #f3f4ee;
     text-align: center;
-    position: relative;
+    text-align: center;
     background-color: #161616;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     height: 20px;
     width: 300px;
-    border: 1px solid var(--naranja);
-    margin-left: 40px;
+    /* border: 1px solid var(--naranja); */
+    /* margin-left: 40px;
     margin-bottom: -30px;
     padding-top: -40px;
-    margin-top: -10px;
+    margin-top: 0px;
     padding-bottom: 5px;
-    font-size: 1rem;
+    font-size: 1rem; */
 }
 
 .collaborated-companies {
@@ -253,8 +259,7 @@ h3 {
 }
 
 
-.company-p p {
-}
+.company-p p {}
 
 .collaborated-companies h2::after {
     content: "";
@@ -343,17 +348,8 @@ h3 {
     background-color: #f3f4ee;
 }
 
-.elemento {
-    width: 100%;
-    height: 100vh;
-    padding: 15px;
-    margin: 65px;
-}
-
-.elemento p {
+.hola {
     font-size: 50px;
-    padding: 30px 30px 30px 0;
-    width: 100%;
 }
 
 #caja1 {
@@ -366,50 +362,17 @@ h3 {
 
 .caja2 {
     width: 800px;
-    height: 800px;
-    padding: 0 0 0 0;
+
     align-self: center;
+    font-size: 20px;
+    padding: 30px 30px 30px 0;
+    width: 100%;
 }
 
 .about-image {
     height: 700px;
     margin-top: -200px;
     padding-left: 100px;
-}
-
-@media (min-width: 500px) and (max-width: 768px) {
-
-}
-
-.caja-p {
-    height: 10px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    font-size: 0;
-}
-
-#caja3 p {
-    text-align: left;
-    font-size: 1rem;
-    margin-top: 0;
-    padding: 10px;
-}
-
-#caja4 {
-    height: 500px;
-    margin-left: -40px;
-    margin-top: -75px;
-    border-left: solid var(--naranja);
-    padding-top: 50px;
-}
-
-#caja4 p {
-    font-size: 4rem;
-    color: var(--naranja);
-    text-align: left;
-    margin-left: 50px;
-    line-height: 0.95em;
 }
 
 /*/Presentación Eli 2/*/
@@ -1137,7 +1100,8 @@ p u {
 }
 
 .footer-items a:hover {
-    color: var(--naranja); /* Color dorado al pasar el cursor */
+    color: var(--naranja);
+    /* Color dorado al pasar el cursor */
 }
 
 .social-buttons2 {
@@ -1187,6 +1151,7 @@ p u {
     0% {
         margin-left: 0;
     }
+
     20% {
         margin-left: 0;
     }
@@ -1194,6 +1159,7 @@ p u {
     25% {
         margin-left: -100%;
     }
+
     45% {
         margin-left: -100%;
     }
@@ -1201,6 +1167,7 @@ p u {
     50% {
         margin-left: -200%;
     }
+
     70% {
         margin-left: -200%;
     }
@@ -1208,6 +1175,7 @@ p u {
     75% {
         margin-left: -300%;
     }
+
     95% {
         margin-left: -300%;
     }
@@ -1222,6 +1190,89 @@ p u {
     .hero-header .side-title {
         display: none;
     }
+
+    .lohabiaspensado {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+
+    }
+
+    .lohabiaspensado1 {
+        font-size: 38px;
+        padding: 25px;
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .lohabiaspensado2 {
+        text-align: left;
+        font-size: 25px;
+        padding: 25px;
+        margin: 0;
+
+    }
+
+    #contenedor {
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        margin: 0%;
+    }
+
+    .about-image {
+        height: 500px;
+        margin-top: -185px;
+        padding-left: 0;
+
+    }
+
+    #caja1 {
+        align-self: center;
+        height: 200px;
+        padding-top: 0px;
+        padding-left: 0px;
+
+    }
+
+    .caja2 {
+        width: 100%;
+        height: 600px;
+        padding: 0px;
+
+        margin-top: 100px;
+
+        p {
+            font-size: 20px;
+            margin-left: 0px;
+        }
+
+        .hola {
+            font-size: 50px;
+        }
+
+    }
+
+    #contenedor-2 {
+        margin: 0;
+        padding: 0px;
+    }
+
+    #caja3 {
+        margin: 0;
+        font-size: 10px;
+        padding: 0px;
+
+        p {
+            margin-top: 10px;
+
+
+        }
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1265,5 +1316,105 @@ p u {
 
     .social-buttons {
         display: none;
+    }
+
+    .lohabiaspensado {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+
+    }
+
+    .lohabiaspensado1 {
+        font-size: 28px;
+        padding: 25px;
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .lohabiaspensado2 {
+        text-align: left;
+        font-size: 15px;
+        padding: 25px;
+        margin: 0;
+
+    }
+
+    #contenedor {
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin: 0%;
+    }
+
+    .about-image {
+        height: 500px;
+        margin-top: -145px;
+        padding-left: 25px;
+
+    }
+
+    #caja1 {
+        align-self: center;
+        height: 200px;
+        padding-top: 0px;
+        padding-left: 0px;
+
+    }
+
+    .caja2 {
+        width: 100%;
+        height: 600px;
+        padding: 15px;
+        margin-top: 0px;
+        margin:10px;
+        margin-bottom: 50px;
+
+        p {
+            font-size: 20px;
+           
+        }
+
+
+    }
+
+    .hola {
+        font-size: 50px;
+        margin-top: 150px;
+        padding-left: 15px;
+    }
+
+    #contenedor-2 {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #caja3 {
+
+        padding: 0px;
+
+    p{
+        font-size: 15px;
+    }
+    }
+
+    .caja-p {
+        font-size: 5px;
+     margin-left: 15px;
+     padding-left: 15px;
+
+
+    }
+    h3{
+        padding-left: 15px;
+    }
+
+
+   
+
     }
 }
