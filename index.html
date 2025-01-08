@@ -7,7 +7,7 @@
     <title>Nombre del Sitio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/estilos-2.css">
-    <link rel="stylesheet" href="CSS/estilos-mq.css">
+<!--    <link rel="stylesheet" href="CSS/estilos-mq.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scales=1.0">
@@ -36,24 +36,19 @@
             </a>
         </div>
     </nav>
-    <div>
+    <div class="hero-header">
+        <h1 class="top-title"><b>Atraé, persuadí y vendé</b> <br>a tus potenciales clientes con palabras y creatividad</h1>
         <div class="header-content">
-            <h1><b>Atraé, persuadí y vendé</b> <br>a tus potenciales clientes con palabras y creatividad</h1>
-            <br>
+            <h1 class="side-title"><b>Atraé, persuadí y vendé</b> <br>a tus potenciales clientes con palabras y creatividad</h1>
             <p>Palabras que no salen de una simple IA, sino del entendimiento de tu propuesta de valor para que
                 puedas
                 comunicarte de forma efectiva, creativa e inclusiva.</p>
-            <br>
             <p><strong>Diferenciate de tu competencia y lográ que tu audiencia comprenda lo que vendés y te
                 compre.</strong>
             </p>
-            <br>
-            <br>
             <a href="#contacto" class="cta-button">Atraer con palabras</a>
         </div>
-    </div>
-    <div class="header-content-image">
-
+        <img class="header-image" src="./imagenes/fotos ely para web_home2.png" alt="Elizabeth Stellavato"/>
     </div>
 </header>
 
@@ -484,5 +479,13 @@
     </div>
 </footer>
 </body>
+
+<script>
+    const menuToggle = document.querySelector('.hamburguesa');
+
+    menuToggle.addEventListener('click', () => {
+        document.querySelector('.navbar').classList.toggle('open');
+    })
+</script>
 
 </html>
