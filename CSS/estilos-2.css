@@ -227,20 +227,21 @@ h3 {
 }
 
 .company-p {
+
     color: #f3f4ee;
     text-align: center;
-    position: relative;
+text-align: center;
     background-color: #161616;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     height: 20px;
     width: 300px;
-    border: 1px solid var(--naranja);
-    margin-left: 40px;
+    /* border: 1px solid var(--naranja); */
+    /* margin-left: 40px;
     margin-bottom: -30px;
     padding-top: -40px;
-    margin-top: -10px;
+    margin-top: 0px;
     padding-bottom: 5px;
-    font-size: 1rem;
+    font-size: 1rem; */
 }
 
 .collaborated-companies {
@@ -1222,6 +1223,26 @@ p u {
     .hero-header .side-title {
         display: none;
     }
+    .lohabiaspensado {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+      
+    }
+    .lohabiaspensado1{
+font-size: 38px;
+padding: 25px;
+margin: 0;
+width: 100%;
+text-align: left;
+    }
+    .lohabiaspensado2 {
+        text-align: left;
+        font-size: 25px;
+      padding: 25px;
+      margin: 0;
+    
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1265,5 +1286,26 @@ p u {
 
     .social-buttons {
         display: none;
+    }
+
+    .lohabiaspensado {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+      
+    }
+    .lohabiaspensado1{
+font-size: 28px;
+padding: 25px;
+margin: 0;
+width: 100%;
+text-align: left;
+    }
+    .lohabiaspensado2 {
+        text-align: left;
+        font-size: 15px;
+      padding: 25px;
+      margin: 0;
+    
     }
 }
