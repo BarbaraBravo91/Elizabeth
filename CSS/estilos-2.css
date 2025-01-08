@@ -1,3 +1,8 @@
+:root {
+    --naranja: #FF5C22;
+    --violeta: #E0A5FF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +10,7 @@
 }
 
 header {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0;
-    margin: 0;
     background-color: #f4f4ee;
-    align-items: start;
-    justify-content: left;
-    text-align: left;
 }
 
 #inicio {
@@ -67,7 +61,7 @@ h1 {
 }
 
 h1 b {
-    color: #FF5C22;
+    color: var(--naranja);
 }
 
 
@@ -80,7 +74,7 @@ h2 {
 
 h3 {
     text-align: left;
-    color: #FF5C22;
+    color: var(--naranja);
     font-size: 75px;
     font-weight: 700;
     line-height: 0.95em;
@@ -91,7 +85,7 @@ h3 {
     background-size: 50px;
     -webkit-text-stroke-width: 1px;
     stroke-width: 1px;
-    -webkit-text-stroke-color: #FF5C22;
+    -webkit-text-stroke-color: var(--naranja);
     letter-spacing: 1px;
     padding-top: 10px;
     margin-top: 0;
@@ -103,7 +97,7 @@ h3 {
     width: 200px;
     color: #161616;
     padding: 10px 10px;
-    background-color: #FF5C22;
+    background-color: var(--naranja);
     border: #f4f4ee 2px;
     border-radius: 25px;
     font-size: 1rem;
@@ -113,7 +107,7 @@ h3 {
 }
 
 .cta-button:hover {
-    background-color: #E0A5FF;
+    background-color: var(--violeta);
 }
 
 .cta-button3 {
@@ -121,7 +115,7 @@ h3 {
     width: 200px;
     color: #161616;
     padding: 10px 10px;
-    background-color: #FF5C22;
+    background-color: var(--naranja);
     border: #f4f4ee 2px;
     border-radius: 25px;
     font-size: 1rem;
@@ -139,7 +133,7 @@ h3 {
     width: 200px;
     color: #161616;
     padding: 10px 10px;
-    background-color: #E0A5FF;
+    background-color: var(--violeta);
     border: #f4f4ee 2px;
     border-radius: 25px;
     font-size: 1rem;
@@ -149,7 +143,7 @@ h3 {
 }
 
 .cta-button2:hover {
-    background-color: #FF5C22;
+    background-color: var(--naranja);
 }
 
 .cta-button4 {
@@ -167,17 +161,17 @@ h3 {
 }
 
 .cta-button4:hover {
-    background-color: #FF5C22;
+    background-color: var(--naranja);
 }
 
 .navbar {
+    box-sizing: border-box;
     position: relative;
     display: flex;
-    justify-content: space-around;
-    justify-items: auto;
+    justify-content: space-between;
     background-color: #f3f4ee;
     color: #161616;
-    padding: 15px 0;
+    padding: 15px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -206,7 +200,7 @@ h3 {
 }
 
 .nav-items a:hover {
-    color: #E0A5FF; /* Color dorado al pasar el cursor */
+    color: var(--violeta); /* Color dorado al pasar el cursor */
 }
 
 .social-buttons {
@@ -240,7 +234,7 @@ h3 {
     border-radius: 25px;
     height: 20px;
     width: 300px;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     margin-left: 40px;
     margin-bottom: -30px;
     padding-top: -40px;
@@ -269,7 +263,7 @@ h3 {
     height: 2px;
     /* Altura del subrayado */
     width: 100%;
-    background-color: #FF5C22;
+    background-color: var(--naranja);
     /* Color naranja */
     transform: scaleX(0);
     /* Inicialmente no visible */
@@ -318,7 +312,7 @@ h3 {
 .lohabiaspensado {
     display: flex;
     flex-direction: row;
-    background-color: #FF5C22;
+    background-color: var(--naranja);
     height: 300px;
     width: 100%;
 }
@@ -406,13 +400,13 @@ h3 {
     height: 500px;
     margin-left: -40px;
     margin-top: -75px;
-    border-left: solid #FF5C22;
+    border-left: solid var(--naranja);
     padding-top: 50px;
 }
 
 #caja4 p {
     font-size: 4rem;
-    color: #FF5C22;
+    color: var(--naranja);
     text-align: left;
     margin-left: 50px;
     line-height: 0.95em;
@@ -443,7 +437,7 @@ h3 {
     font-size: 1rem;
     height: 500px;
     width: 500px;
-    border-bottom: solid #FF5C22;
+    border-bottom: solid var(--naranja);
 }
 
 #caja6 {
@@ -478,7 +472,7 @@ h3 {
     margin-top: -200px;
     margin-left: 100px;
     padding-right: 50px;
-    border-right: solid #FF5C22;
+    border-right: solid var(--naranja);
 }
 
 .titulo-eli {
@@ -529,10 +523,10 @@ h3 {
 }
 
 .numeros-contenedor {
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     background-color: #161616;
     border-radius: 50px;
-    color: #FF5C22;
+    color: var(--naranja);
     height: 200px;
     width: 270px;
     align-content: center;
@@ -564,7 +558,7 @@ h3 {
 }
 
 .trampolin strong {
-    color: #FF5C22;
+    color: var(--naranja);
 }
 
 
@@ -621,7 +615,7 @@ h3 {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
     background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
@@ -641,7 +635,7 @@ h3 {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
     background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
@@ -659,7 +653,7 @@ h3 {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
     background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
@@ -677,7 +671,7 @@ h3 {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
     background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
@@ -705,7 +699,7 @@ h3 {
 }
 
 .conoceme-titulo {
-    color: #FF5C22;
+    color: var(--naranja);
     font-size: 30px;
     font-weight: 600;
     padding-top: 100px;
@@ -732,7 +726,7 @@ h3 {
     text-align: left;
     padding-left: 0;
     padding-right: 0;
-    background-color: #E0A5FF;
+    background-color: var(--violeta);
 }
 
 .resaltado {
@@ -740,19 +734,19 @@ h3 {
     color: #f3f4ee;
     text-align: center;
     border-radius: 50px;
-    background-color: #E0A5FF;
+    background-color: var(--violeta);
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .resaltado:hover {
-    background-color: #FF5C22;
+    background-color: var(--naranja);
 }
 
 .resaltado2 {
     text-align: center;
-    background-color: #E0A5FF;
+    background-color: var(--violeta);
     border-radius: 50px;
     margin-left: 550px;
     color: #f3f4ee;
@@ -762,7 +756,7 @@ h3 {
 }
 
 .resaltado2:hover {
-    background-color: #FF5C22;
+    background-color: var(--naranja);
 }
 
 #palabras-colum-1 {
@@ -839,7 +833,7 @@ h3 {
 
 .acordeon {
     border: 0;
-    background-color: #E0A5FF;
+    background-color: var(--violeta);
 }
 
 .serviciostitulo1 {
@@ -926,7 +920,7 @@ h3 {
 }
 
 #colum1 u {
-    color: #FF5C22;
+    color: var(--naranja);
 }
 
 /* Agregar al CSS existente */
@@ -962,7 +956,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: 6%;
     background-position: bottom;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     background-position-y: 490px;
 
 }
@@ -991,7 +985,7 @@ h3 {
     margin-left: 25px;
     padding: 50px 25px 25px 25px;
     font-size: large;
-    border: 1px solid #FF5C22;
+    border: 1px solid var(--naranja);
     border-radius: 0 95px 0 95px;
     text-align: center;
 }
@@ -1055,7 +1049,7 @@ h3 {
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 0 solid #FF5C22;
+    border: 0 solid var(--naranja);
     border-bottom-width: 1px;
     font-size: 18px;
     color: #161616;
@@ -1067,7 +1061,7 @@ h3 {
     background-color: #FFB217;
     padding-bottom: 150px;
     border-radius: 4px;
-    border-bottom: 1px solid #FF5C22;
+    border-bottom: 1px solid var(--naranja);
     scrollbar-width: none;
     font-size: 18px;
     color: #161616;
@@ -1090,7 +1084,7 @@ h3 {
 
 .boton-form {
     width: 200px;
-    background-color: #FF5C22;
+    background-color: var(--naranja);
     border: none;
     padding: 12px;
     border-radius: 75px;
@@ -1110,7 +1104,7 @@ h3 {
 }
 
 p u {
-    color: #FF5C22;
+    color: var(--naranja);
 }
 
 .footer {
@@ -1143,7 +1137,7 @@ p u {
 }
 
 .footer-items a:hover {
-    color: #FF5C22; /* Color dorado al pasar el cursor */
+    color: var(--naranja); /* Color dorado al pasar el cursor */
 }
 
 .social-buttons2 {
@@ -1256,6 +1250,20 @@ p u {
     }
 
     .nav-items {
+        display: none;
         width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar.open {
+        background-color: white;
+    }
+
+    .navbar.open .nav-items {
+        display: flex;
+    }
+
+    .social-buttons {
+        display: none;
     }
 }

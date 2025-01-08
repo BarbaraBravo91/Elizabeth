@@ -82,7 +82,7 @@
     }
     .nav-items li a {
         text-decoration: none;
-        color: #FF5C22;
+        color: var(--naranja);
 
     }
 
