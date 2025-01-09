@@ -606,10 +606,7 @@ h3 {
     border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
-    background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
-    background-repeat: no-repeat;
-    background-position: -10px -10px;
-    background-size: 5%;
+ 
 }
 
 .problem-item3 {
@@ -624,10 +621,6 @@ h3 {
     border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
-    background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
-    background-repeat: no-repeat;
-    background-position: -10px -10px;
-    background-size: 5%;
 }
 
 .problem-item3 p {
@@ -646,10 +639,6 @@ h3 {
     border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
-    background-image: url("../imagenes/PNG/Miscelaneas ES_misc1-violeta.png");
-    background-repeat: no-repeat;
-    background-position: -10px -10px;
-    background-size: 5%;
 }
 
 .problem-item4 p {
@@ -2058,7 +2047,7 @@ p u {
 
         background-image: none;
     }
-    }
+    
 
     .problem-item4 {
 
