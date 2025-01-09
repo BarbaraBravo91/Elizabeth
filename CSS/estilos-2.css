@@ -1203,12 +1203,6 @@ p u {
 
 @media only screen and (max-width: 1483px) {
 
-
-
-
-
-
-
     .img-palabras {
         margin-top: -90px;
         padding-left: 10px;
@@ -1334,7 +1328,9 @@ p u {
         padding-top: 0px;
         padding-left: 15px;
         margin-top: 0px;
+        justify-content: space-around;
     }
+
 
     h2 {
         font-size: 30px;
@@ -1348,6 +1344,7 @@ p u {
         margin: 15px;
         width: 100%;
         padding-left: 5px;
+        justify-content: space-between;
     }
 
     .problem-item {
@@ -1375,7 +1372,7 @@ p u {
 
         height: 150px;
         width: 150px;
-        margin: 10px;
+        margin: 0px;
         padding-top: 30px;
         padding-bottom: 0px;
         border-radius: 50px;
@@ -1392,7 +1389,7 @@ p u {
 
         height: 150px;
         width: 150px;
-        margin: 10px;
+        margin: 0px;
         padding-top: 30px;
         padding-bottom: 0px;
         border-radius: 50px;
@@ -1409,7 +1406,7 @@ p u {
 
         height: 150px;
         width: 150px;
-        margin: 10px;
+        margin: 0px;
         padding-top: 30px;
         padding-bottom: 0px;
         border-radius: 50px;
@@ -1496,7 +1493,7 @@ p u {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        height: 370px;
+        height: 380px;
         margin-top: 0;
         margin-left: 0;
 
@@ -1509,9 +1506,11 @@ p u {
         margin: 0;
         width: 100%;
         padding: 2px;
+        justify-content: space-around;
     }
 
     #problem-colum {
+
         box-sizing: border-box;
         margin-bottom: 0;
         padding-bottom: 0;
@@ -1520,67 +1519,66 @@ p u {
     }
 
     .problem-item {
-
+        box-sizing: border-box;
         height: 200px;
         width: 200px;
-        margin: 10px;
-        margin-bottom: 2.5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        padding: 0;
+        margin: 0;
+
+        padding-top: 50px;
         border-radius: 50px;
 
         p {
             font-size: 10px;
-            padding-bottom: 5px;
+            padding-bottom: 2px;
         }
     }
 
     .problem-item2 {
-
+        box-sizing: border-box;
         height: 200px;
         width: 200px;
-        margin: 10px;
-        margin-bottom: 2.5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        padding: 0;
+        margin: 0;
+
+        padding-top: 50px;
         border-radius: 50px;
 
         p {
             font-size: 10px;
-            padding-bottom: 5px;
+            padding-bottom: 2px;
         }
     }
 
     .problem-item3 {
-
+        box-sizing: border-box;
         height: 200px;
         width: 200px;
-        margin: 10px;
-        margin-bottom: 2.5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        padding: 0;
+        margin: 0;
+
+        padding-top: 50px;
         border-radius: 50px;
 
         p {
             font-size: 10px;
-            padding-bottom: 15px;
+            padding-bottom: 2px;
         }
     }
 
     .problem-item4 {
-
+        box-sizing: border-box;
         height: 200px;
         width: 200px;
-        margin: 10px;
-        margin-bottom: 2.5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        padding: 0;
+        margin: 0;
+
+        padding-top: 50px;
         border-radius: 50px;
 
         p {
             font-size: 10px;
-            padding-bottom: 5px;
-
+            padding-bottom: 2px;
         }
     }
 
@@ -1609,6 +1607,7 @@ p u {
     }
 
     .numeros-section {
+
         display: flex;
         flex-direction: column;
         padding: 0px;
@@ -1629,7 +1628,7 @@ p u {
 
     .trampolin {
         width: 500px;
-        margin-left: 150px;
+        margin-left: 100px;
         margin-top: 20px;
         margin-right: 5px;
         margin-bottom: 0;
@@ -1648,13 +1647,13 @@ p u {
     }
 
     .palabra-p1 {
-        width: 100%;
+        width: 105%;
         font-size: 15px;
-        margin-left: -80px;
+        margin-left: -99px;
         margin-top: 15px;
         padding: 0;
         padding-left: 25px;
-        padding-right: -25px;
+        padding-right: 0px;
 
     }
 }
@@ -1803,17 +1802,19 @@ p u {
     .problems-section {
         display: flex;
         flex-direction: column;
-        height: 1270px;
+        height: 800px;
         margin-top: 0;
+        box-sizing: border-box;
 
     }
 
     .problem-colum-2 {
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         margin: 0;
         width: 100%;
-        padding-left: 25px;
+    
         align-items: center;
     }
 
@@ -1821,72 +1822,71 @@ p u {
         box-sizing: border-box;
         margin-bottom: 0;
         padding-bottom: 0;
-        height: 200px;
+        padding-top: 0;
+        margin-top: -25px;
+        height: 100px;
         align-items: center;
     }
 
     .problem-item {
-
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 30px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
             padding-bottom: 5px;
         }
+
+        background-image: none;
     }
 
     .problem-item2 {
-
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 30px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
             padding-bottom: 5px;
         }
+
+        background-image: none;
     }
 
     .problem-item3 {
-
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 30px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
             padding-bottom: 5px;
         }
+
+        background-image: none;
     }
 
     .problem-item4 {
 
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 30px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
             padding-bottom: 5px;
         }
+
+        background-image: none;
     }
 
     .conoceme-titulo {
@@ -1979,7 +1979,7 @@ p u {
         box-sizing: border-box;
         width: 100%;
         font-size: 15px;
-        margin: 0;
+        margin-left: 0;
     }
 
 }
@@ -1989,7 +1989,7 @@ p u {
     .problems-section {
         display: flex;
         flex-direction: column;
-        height: 1270px;
+        height: 900px;
         margin-top: 0;
 
     }
@@ -2012,67 +2012,70 @@ p u {
 
     .problem-item {
 
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 25px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
-            padding-bottom: 5px;
+            padding-bottom: 0px;
         }
+
+        background-image: none;
     }
 
     .problem-item2 {
 
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 25px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
-            padding-bottom: 5px;
+            padding-bottom: 0px;
         }
+
+        background-image: none;
     }
+   
 
     .problem-item3 {
 
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 25px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
-            padding-bottom: 5px;
+            padding-bottom: 0px;
         }
+
+        background-image: none;
+    }
     }
 
     .problem-item4 {
 
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        margin-bottom: 5px;
-        padding-top: 40px;
-        padding-bottom: 0px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 25px;
         border-radius: 50px;
 
         p {
             font-size: 13px;
-            padding-bottom: 5px;
+            padding-bottom: 0px;
         }
+
+        background-image: none;
     }
+    
 
     .conoceme-titulo {
         padding: 50px;
@@ -2093,7 +2096,7 @@ p u {
         padding: 0;
         display: flex;
         flex-direction: column;
-        height: 1800px;
+        height: 1500px;
     }
 
     .numeros-section {
@@ -2133,14 +2136,14 @@ p u {
     .palabras-item-3 {}
 
     .img-palabras {
-        margin-top: -25px;
+        margin-top: 20px;
         padding-left: 10px;
-        padding-top: 200px;
-        width: 300px;
+        padding-top: 100px;
+        width: 100%;
     }
 
     .palabra-p1 {
-        width: 300px;
+        width: 100%;
         font-size: 15px;
         margin: 0;
     }
