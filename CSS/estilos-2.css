@@ -606,7 +606,7 @@ h3 {
     border: 1px solid var(--naranja);
     border-radius: 10%;
     padding: 50px 50px 50px 50px;
- 
+
 }
 
 .problem-item3 {
@@ -794,6 +794,7 @@ h3 {
     font-size: 1.2rem;
     width: 700px;
     padding-left: 40px;
+    padding-bottom: 25px;
     background-image: url("../imagenes/PNG/Miscelaneas ES_estrella blanca.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -808,11 +809,13 @@ h3 {
     background-color: var(--violeta);
 }
 
-.serviciostitulo1 {
+#serviciostitulo1 {
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     width: 100%;
     background-color: #f3f4ee;
-    height: 200px;
+    height: 100px;
     text-align: left;
     align-items: center;
     font-size: 50px;
@@ -821,12 +824,16 @@ h3 {
     justify-content: space-evenly;
 }
 
-.serviciostitulo p {
+#serviciostitulo p {
+    box-sizing: border-box;
+    width: 100%;
     text-align: center;
     font-size: 35px;
 }
 
 .servicios-subtitulo {
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -855,6 +862,7 @@ h3 {
 
 
 .servicios1-section {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -869,6 +877,8 @@ h3 {
 }
 
 .colum2 {
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     height: 550px;
     padding: 0;
@@ -876,14 +886,18 @@ h3 {
 }
 
 .colum2 img {
+    box-sizing: border-box;
+    width: 100%;
     height: 500px;
     margin-top: -50px;
     padding: 30px;
     border-radius: 50px;
 }
 
+
 .colum1 {
-    width: 700px;
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -1200,6 +1214,7 @@ p u {
     }
 
     .palabra-p1 {
+        padding-bottom: 25px;
         box-sizing: border-box;
         width: 100%;
         font-size: 15px;
@@ -1472,6 +1487,83 @@ p u {
         width: 100%;
         font-size: 15px;
         margin: 0;
+        padding-bottom: 25px;
+    }
+
+    /* Pongamos en palabras */
+
+    #palabras-item {
+        text-align: left;
+        color: #161616;
+        font-size: 35px;
+        width: 100%;
+        margin-top: -150px;
+        margin-right: 25px;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 25px;
+        padding-right: 0;
+    }
+
+    #palabras-colum-2 {
+        box-sizing: border-box;
+        height: 550px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-right: 50px;
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+
+    /*SERVICIOS*/
+    #serviciostitulo {
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .servicios-subtitulo {
+        box-sizing: border-box;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .servicios1-section {
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: none;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 550px;
+
+
+    }
+
+    .colum1 {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .colum2 {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        img {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .servicio-titulo {
+        font-size: 25px;
     }
 }
 
@@ -1521,6 +1613,7 @@ p u {
             font-size: 10px;
             padding-bottom: 2px;
         }
+
     }
 
     .problem-item2 {
@@ -1643,7 +1736,106 @@ p u {
         padding: 0;
         padding-left: 25px;
         padding-right: 0px;
+        padding-bottom: 25px;
 
+    }
+
+    #palabras-item {
+        box-sizing: border-box;
+        text-align: left;
+        color: #161616;
+        font-size: 35px;
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding-top: 50px;
+        padding-left: 50px;
+
+    }
+
+    #palabras-colum-2 {
+        box-sizing: border-box;
+        height: 250px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-left: 50px;
+        padding-left: 50px;
+
+    }
+
+    .palabras-section {
+        box-sizing: border-box;
+        flex-direction: column;
+        height: 600px;
+        width: 100%;
+
+    }
+
+    .palabra-p1 {
+        color: #161616;
+        font-size: 15px;
+        width: 100%;
+        padding: 0;
+        padding-left: 20px;
+        padding-bottom: 25px;
+        background-image: url("../imagenes/PNG/Miscelaneas ES_estrella blanca.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 15px;
+        background-position-y: 3px;
+        margin: 0;
+
+    }
+
+    /*SERVICIOS*/
+    #serviciostitulo {
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .servicios-subtitulo {
+        box-sizing: border-box;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .servicios1-section {
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: none;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 550px;
+
+
+    }
+
+    .colum1 {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .colum2 {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        img {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .servicio-titulo {
+        font-size: 25px;
     }
 }
 
@@ -1803,7 +1995,7 @@ p u {
         flex-direction: column;
         margin: 0;
         width: 100%;
-    
+
         align-items: center;
     }
 
@@ -1964,12 +2156,27 @@ p u {
         width: 100%;
     }
 
+    .servicios-subtitulo {
+        flex-direction: column;
+    }
+
     .palabra-p1 {
         box-sizing: border-box;
         width: 100%;
         font-size: 15px;
         margin-left: 0;
+        padding-bottom: 25px;
     }
+
+    #palabras-colum-2 {
+        box-sizing: border-box;
+        height: 250px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
 
 }
 
@@ -2030,7 +2237,7 @@ p u {
 
         background-image: none;
     }
-   
+
 
     .problem-item3 {
 
@@ -2047,7 +2254,7 @@ p u {
 
         background-image: none;
     }
-    
+
 
     .problem-item4 {
 
@@ -2064,7 +2271,7 @@ p u {
 
         background-image: none;
     }
-    
+
 
     .conoceme-titulo {
         padding: 50px;
@@ -2135,5 +2342,97 @@ p u {
         width: 100%;
         font-size: 15px;
         margin: 0;
+        padding-bottom: 25px;
+    }
+
+    /*/PALABRAS/*/
+    #palabras-item {
+        box-sizing: border-box;
+        text-align: left;
+        color: #161616;
+        font-size: 35px;
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding-top: 50px;
+        padding-left: 50px;
+
+    }
+
+    #palabras-colum-2 {
+        box-sizing: border-box;
+        height: 250px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+
+    }
+
+    .palabras-section {
+        box-sizing: border-box;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+
+    }
+
+    .palabra-p1 {
+        color: #161616;
+        font-size: 15px;
+        width: 100%;
+        padding: 20px;
+        background-image: none;
+        padding-bottom: 15px;
+
+
+    }
+
+    /*SERVICIOS*/
+    #serviciostitulo {
+        p {
+            font-size: 30px;
+        }
+    }
+
+    .servicios-subtitulo {
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicios1-section {
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 450px;
+        margin-bottom: 0;
+
+
+    }
+
+    .colum1 {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 10px;
+        padding: 15px;
+        margin-bottom: 0;
+    }
+
+    .colum2 {
+        display: none;
+    }
+
+    .servicio-titulo {
+        font-size: 25px;
+    }
+
+    #serviciostitulo p {
+        font-size: 20px;
     }
 }
