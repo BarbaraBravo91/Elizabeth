@@ -66,6 +66,8 @@ h1 b {
 
 
 h2 {
+    box-sizing: border-box;
+    width: 100%;
     font-size: 50px;
     color: #161616;
     margin-top: -75px;
@@ -315,6 +317,7 @@ h3 {
 
 /*/Lo habias pensado/*/
 .lohabiaspensado {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     background-color: var(--naranja);
@@ -323,11 +326,12 @@ h3 {
 }
 
 .lohabiaspensado1 {
-    width: 608px;
+    box-sizing: border-box;
+    width: 100%;
     text-align: right;
     font-size: 3rem;
-    padding-top: 70px;
-    padding-left: 100px;
+    padding-top: 0px;
+    
 }
 
 .lohabiaspensado2 {
@@ -361,7 +365,8 @@ h3 {
 }
 
 .caja2 {
-    width: 800px;
+    box-sizing: border-box;
+    width: 100%;
 
     align-self: center;
     font-size: 20px;
@@ -370,6 +375,7 @@ h3 {
 }
 
 .about-image {
+    box-sizing: border-box;
     height: 700px;
     margin-top: -200px;
     padding-left: 100px;
@@ -545,6 +551,8 @@ h3 {
     background-color: #f3f4ee;
 
 }
+
+
 
 #problem-colum {
     display: flex;
@@ -998,8 +1006,9 @@ h3 {
 }
 
 .section-1 {
+    box-sizing: border-box;
     height: 500px;
-    width: 500px;
+  width: 100%;
     margin-top: 150px;
     color: #161616;
     margin-right: 50px;
@@ -1018,10 +1027,10 @@ h3 {
 .form-registro {
     box-sizing: border-box;
     height: 700px;
-    width: 500px;
+    width: 100%;
     background-color: #FFB217;
-    padding: 100px;
-    margin: 100px auto auto;
+    padding:0;
+    margin: 0 auto auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1077,7 +1086,8 @@ h3 {
     color: #f3f4ee;
     font-size: 16px;
 }
-.imagenForm{
+
+.imagenForm {
     height: 479px;
     width: 100%;
     display: flex;
@@ -1086,11 +1096,12 @@ h3 {
     align-items: flex-start;
     margin: 0;
     margin-top: -200px;
-  margin-bottom: -77px;
+    margin-bottom: -77px;
 
 }
+
 .imagenForm img {
-  justify-content:right;
+    justify-content: right;
     height: 479px;
     box-sizing: border-box;
     margin-right: -75px;
@@ -1105,11 +1116,14 @@ p u {
     height: 300px;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo1 img {
     height: 100px;
     padding: 100px 0 0 100px;
+
 }
 
 .footer-items {
@@ -1117,16 +1131,22 @@ p u {
     display: flex;
     margin: 0;
     padding: 125px 50px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-items li {
     margin: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-items a {
     text-decoration: none;
     color: #f3f4ee;
     transition: color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-items a:hover {
@@ -1135,6 +1155,8 @@ p u {
 }
 
 .social-buttons2 {
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     background-color: #161616;
@@ -1142,6 +1164,7 @@ p u {
 
 .social-buttons2 img {
     color: #f3f4ee;
+
 }
 
 .mail-footer {
@@ -1150,6 +1173,8 @@ p u {
     padding-top: 139px;
     padding-left: 50px;
     padding-right: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Carrusel */
@@ -1227,55 +1252,65 @@ p u {
         font-size: 15px;
         margin: 0;
     }
+
     /*FORM*/
-.form-general{
-    width: 100%;
-    background-image: none ;
-    height: 800px;
-    padding: 2%;
-    background-color: #FFB217;
-}
-.section-form {
-    flex-direction: row;
-    padding: 0%;
-    height: 900px;
-}
-.titulo-form{
-    font-size: 40px;
-}
-#texto-form{
-    padding-top: 5px;
-    font-size: 25px;
-}
-.form-registro {
-    height: 400px;
-    width: 200px;
-    padding-top: 20px;
-    margin-top: 0px;
+    .form-general {
+        box-sizing: border-box;
+        width: 100%;
+        background-image: none;
+        height: 700px;
+        padding: 2%;
+        background-color: #FFB217;
+    }
 
-}
-.section-1 {
-    margin-top: 100px;
-    height: 200px;
-}
-.imagenForm{
-    height: 479px;
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    box-sizing: border-box;
-    align-items: flex-start;
-    margin: 0;
-    margin-top: -450px;
-  margin-bottom: -70px;
+    .section-form {
+        flex-direction: row;
+        padding: 0%;
+        height: 750px;
+        width: 100%;
+    }
 
-}
-.imagenForm img {
-  justify-content:right;
-    height: 379px;
+    .titulo-form {
+        font-size: 40px;
+    }
+
+    #texto-form {
+        padding-top: 5px;
+        font-size: 25px;
+    }
+
+    .form-registro {
+        box-sizing: border-box;
+        height: 400px;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 0px;
+
+    }
+
+    .section-1 {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 100px;
+        height: 200px;
+    }
+
+    .imagenForm {
+ display: none;
+
+    }
+
+    .imagenForm img {
+        justify-content: right;
+        height: 379px;
+        box-sizing: border-box;
+        margin-right: -25px;
+    }
+footer{
     box-sizing: border-box;
-    margin-right: -25px;
+    width: 100%;
 }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1393,6 +1428,8 @@ p u {
 
 
     h2 {
+        box-sizing: border-box;
+        width: 100%;
         font-size: 30px;
         padding-bottom: 0px;
         margin-bottom: 0;
@@ -1621,43 +1658,111 @@ p u {
     .servicio-titulo {
         font-size: 25px;
     }
-    /*/FORM/*/
-   .form-general{
-    height: 800px;
-   }
-   .section-1{
-    width: 100%;
-   }
-   
-   .titulo-form{
-    font-size: 50px;
-    width: 100%;
 
-   }
+    /*/FORM/*/
+    .form-general {
+        height: 800px;
+        width: 100%;
+    }
+
+    .section-1 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .section-form {
+        height: 800px;
+        width: 100%;
+    }
+
+    .titulo-form {
+        font-size: 50px;
+        width: 100%;
+
+    }
+
     .form-registro {
+        box-sizing: border-box;
         height: 400px;
         width: 100%;
         padding-top: 20px;
         margin-top: 0px;
     }
-  
-    .imagenForm{
-        height: 300px;
-        width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
+
+    .imagenForm {
+    display: none;
+    }
+
+    /*/FOOTER/*/
+    .footer {
         box-sizing: border-box;
-        align-items: flex-end;
-        margin: 0;
-        margin-top: -450px;
-      margin-bottom: -70px;
-    img{
+        background-color: #161616;
         height: 300px;
-        margin-bottom: -73px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
+
+    .logo1 img {
+        width: 100%;
+        box-sizing: border-box;
+        height: 200px;
+        padding: 1;
+
     }
-    
-  
+
+    .footer-items {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 125px 50px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-items li {
+        margin: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-items a {
+        text-decoration: none;
+        color: #f3f4ee;
+        transition: color 0.3s;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-items a:hover {
+        color: var(--naranja);
+        /* Color dorado al pasar el cursor */
+    }
+
+    .social-buttons2 {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        background-color: #161616;
+    }
+
+    .social-buttons2 img {
+        color: #f3f4ee;
+
+    }
+
+    .mail-footer {
+        display: flex;
+        flex-direction: row;
+        padding-top: 139px;
+        padding-left: 50px;
+        padding-right: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
 
 }
 
@@ -1672,6 +1777,13 @@ p u {
         margin-top: 0;
         margin-left: 0;
 
+    }
+    h2 {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 20px;
+        color: #161616;
+        margin-top: -75px;
     }
 
     .problem-colum-2 {
@@ -1931,16 +2043,18 @@ p u {
     .servicio-titulo {
         font-size: 25px;
     }
+
     /*/FORM/*/
-    .form-general{
+    .form-general {
         box-sizing: border-box;
-       
+
         width: 100%;
-        background-image: none ;
+        background-image: none;
         height: 1000px;
         padding: 0;
         background-color: #FFB217;
     }
+
     .section-form {
         box-sizing: border-box;
         width: 100%;
@@ -1948,7 +2062,8 @@ p u {
         padding: 0%;
         height: 900px;
     }
-    .titulo-form{
+
+    .titulo-form {
         box-sizing: border-box;
         width: 100%;
         padding: 0px;
@@ -1956,7 +2071,8 @@ p u {
         margin: 0;
         font-size: 40px;
     }
-    #texto-form{
+
+    #texto-form {
         box-sizing: border-box;
         width: 100%;
         padding: 0px;
@@ -1965,21 +2081,24 @@ p u {
         margin-bottom: 10px;
         text-align: center;
     }
+
     .form-registro {
         box-sizing: border-box;
         width: 100%;
         height: 300px;
         padding-top: 0px;
         margin-top: 0px;
-    
+
     }
+
     .section-1 {
         box-sizing: border-box;
         width: 100%;
         margin-top: 100px;
         height: 200px;
     }
-    .imagenForm{
+
+    .imagenForm {
         display: none;
     }
 }
@@ -2031,12 +2150,13 @@ p u {
         display: flex;
         flex-direction: column;
         height: 300px;
+        
 
     }
 
     .lohabiaspensado1 {
         font-size: 28px;
-        padding: 25px;
+        padding: 10px;
         margin: 0;
         width: 100%;
         text-align: left;
@@ -2045,7 +2165,7 @@ p u {
     .lohabiaspensado2 {
         text-align: left;
         font-size: 15px;
-        padding: 25px;
+        padding: 10px;
         margin: 0;
 
     }
@@ -2062,7 +2182,8 @@ p u {
     .about-image {
         height: 500px;
         margin-top: -145px;
-        padding-left: 25px;
+        padding-left: 15px;
+        width: 100%;
 
     }
 
@@ -2121,6 +2242,7 @@ p u {
 
     h3 {
         padding-left: 15px;
+       
 
     }
 
@@ -2321,16 +2443,18 @@ p u {
         padding: 0px;
 
     }
-       /*/FORM/*/
-       .form-general{
+
+    /*/FORM/*/
+    .form-general {
         box-sizing: border-box;
-       
+
         width: 100%;
-        background-image: none ;
+        background-image: none;
         height: 800px;
         padding: 0;
         background-color: #FFB217;
     }
+
     .section-form {
         box-sizing: border-box;
         width: 100%;
@@ -2338,7 +2462,8 @@ p u {
         padding: 0%;
         height: 500px;
     }
-    .titulo-form{
+
+    .titulo-form {
         box-sizing: border-box;
         width: 100%;
         padding: 0px;
@@ -2346,7 +2471,8 @@ p u {
         margin: 0;
         font-size: 20px;
     }
-    #texto-form{
+
+    #texto-form {
         box-sizing: border-box;
         width: 100%;
         padding: 0px;
@@ -2355,73 +2481,102 @@ p u {
         margin-bottom: 10px;
         text-align: left;
     }
+
     .form-registro {
         box-sizing: border-box;
         width: 100%;
         height: 300px;
         padding-top: 0px;
         margin-top: 0px;
-    
+
     }
+
     .section-1 {
         box-sizing: border-box;
         width: 100%;
         margin-top: 100px;
         height: 200px;
     }
-    .imagenForm{
+
+    .imagenForm {
         display: none;
     }
-    .controls{
+
+    .controls {
         width: 100%;
         font-size: 10px;
     }
-    .controls-2{
+
+    .controls-2 {
         width: 100%;
         font-size: 10px;
     }
-    .privacidad{
+
+    .privacidad {
         font-size: 8px;
         width: 100%;
     }
-    .cta-button3{
+
+    .cta-button3 {
         height: 30px;
         font-size: 10px;
-        
+
     }
 
 
 }
 
 @media only screen and (max-width: 480px) {
+    #contenedor{
+        box-sizing: border-box;
+        width: 100%;
+        height: 775px;
+    }
+    .caja2{
+        box-sizing: border-box;
+        width: 100%;
+        h3{
+    
+            box-sizing: border-box;
+            width: 100%;
+            font-size: 50px;
+            font-weight: 0;
+        }
+    }
+ 
 
     .problems-section {
+        box-sizing: border-box;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 900px;
-        margin-top: 0;
+        margin:0;
+        padding: 0;
 
     }
 
     .problem-colum-2 {
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         margin: 0;
         width: 100%;
-        padding-left: 25px;
+        padding-left: 0px;
     }
 
     #problem-colum {
         box-sizing: border-box;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        height: 200px;
-        align-items: center;
+        width: 100%;
+        margin:0;
+        padding: 0;
+        height: 100px;
+        align-items: flex-end;
     }
 
     .problem-item {
 
-        height: 150px;
+        height: 170px;
         width: 100%;
         margin-bottom: 10px;
         padding: 25px;
@@ -2437,7 +2592,7 @@ p u {
 
     .problem-item2 {
 
-        height: 150px;
+        height: 170px;
         width: 100%;
         margin-bottom: 10px;
         padding: 25px;
@@ -2450,11 +2605,15 @@ p u {
 
         background-image: none;
     }
-
+.h2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+}
 
     .problem-item3 {
 
-        height: 150px;
+        height: 170px;
         width: 100%;
         margin-bottom: 10px;
         padding: 25px;
@@ -2471,7 +2630,7 @@ p u {
 
     .problem-item4 {
 
-        height: 150px;
+        height: 170px;
         width: 100%;
         margin-bottom: 10px;
         padding: 25px;
@@ -2608,7 +2767,13 @@ p u {
             font-size: 30px;
         }
     }
-
+    
+.problems-section{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin:0;
+}
     .servicios-subtitulo {
         box-sizing: border-box;
         flex-direction: column;
@@ -2633,18 +2798,19 @@ p u {
         box-sizing: border-box;
         width: 100%;
         font-size: 10px;
-        padding: 15px;
-        margin-bottom: 0px;
-        margin-top: 0px;
+        padding: 0px;
+        margin:0;
     }
 
     .colum2 {
         display: none;
     }
-.cta-button2{
-    font-size: 10px;
-    height: 30px;
-}
+
+    .cta-button2 {
+        font-size: 10px;
+        height: 30px;
+    }
+
     .servicio-titulo {
         font-size: 25px;
         margin-top: 20px;
@@ -2653,84 +2819,97 @@ p u {
     #serviciostitulo p {
         font-size: 20px;
     }
+
     /*FORM*/
-.form-general{
-    box-sizing: border-box;
-    width: 100%;
-    background-image: none ;
-    height: 1000px;
-    padding: 2%;
-    background-color: #FFB217;
-}
-.section-form {
-    box-sizing: border-box;
-    width: 100%;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
-    height: 600px;
-}
-.titulo-form{
-    font-size: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-#texto-form{
-    box-sizing: border-box;
-    width: 100%;
-    padding-top: 5px;
-    font-size: 15px;
-}
-.form-registro {
-    height: 400px;
-    box-sizing: border-box;
-    width: 100%;
-    padding-top: 20px;
-    padding: 0;
-    margin-top: 0px;
-    margin:0;
+    .form-general {
+        box-sizing: border-box;
+        width: 100%;
+        background-image: none;
+        height: 1000px;
+        padding: 2%;
+        background-color: #FFB217;
+    }
 
-}
-#contacto.form-general{
-    height: 700px;
-}
-.controls{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 10px;
-}
-.section-1 {
-    box-sizing: border-box;
-    width: 100%;
-    margin-top: 10px;
-    padding: 0;
-    height: 200px;
-}
-.imagenForm{
-    display: none;
-}
-.controls-2{
-    width: 100%;
-    font-size: 10px;
-}
-.privacidad{
-    box-sizing: border-box;
-    font-size: 8px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    
-}
-.privacidad1{
-   font-size: 8px;}
+    .section-form {
+        box-sizing: border-box;
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        height: 600px;
+    }
 
-.cta-button3{
-    height: 30px;
-    font-size: 10px;
-    
-}
+    .titulo-form {
+        font-size: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #texto-form {
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+
+    .form-registro {
+        height: 400px;
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 20px;
+        padding: 0;
+        margin-top: 0px;
+        margin: 0;
+
+    }
+
+    #contacto.form-general {
+        height: 700px;
+    }
+
+    .controls {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .section-1 {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 10px;
+        padding: 0;
+        height: 200px;
+    }
+
+    .imagenForm {
+        display: none;
+    }
+
+    .controls-2 {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .privacidad {
+        box-sizing: border-box;
+        font-size: 8px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .privacidad1 {
+        font-size: 8px;
+    }
+
+    .cta-button3 {
+        height: 30px;
+        font-size: 10px;
+
+    }
 }
