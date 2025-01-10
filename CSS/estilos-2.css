@@ -1077,16 +1077,23 @@ h3 {
     color: #f3f4ee;
     font-size: 16px;
 }
-
-.imagenForm img {
+.imagenForm{
     height: 479px;
-    width: auto;
-    margin-top: -270px;
-    margin-bottom: -82px;
-    padding-bottom: -100px;
-    padding-left: 990px;
-    padding-right: 50px;
-    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    align-items: flex-start;
+    margin: 0;
+    margin-top: -200px;
+  margin-bottom: -77px;
+
+}
+.imagenForm img {
+  justify-content:right;
+    height: 479px;
+    box-sizing: border-box;
+    margin-right: -75px;
 }
 
 p u {
@@ -1220,6 +1227,55 @@ p u {
         font-size: 15px;
         margin: 0;
     }
+    /*FORM*/
+.form-general{
+    width: 100%;
+    background-image: none ;
+    height: 800px;
+    padding: 2%;
+    background-color: #FFB217;
+}
+.section-form {
+    flex-direction: row;
+    padding: 0%;
+    height: 900px;
+}
+.titulo-form{
+    font-size: 40px;
+}
+#texto-form{
+    padding-top: 5px;
+    font-size: 25px;
+}
+.form-registro {
+    height: 400px;
+    width: 200px;
+    padding-top: 20px;
+    margin-top: 0px;
+
+}
+.section-1 {
+    margin-top: 100px;
+    height: 200px;
+}
+.imagenForm{
+    height: 479px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    align-items: flex-start;
+    margin: 0;
+    margin-top: -450px;
+  margin-bottom: -70px;
+
+}
+.imagenForm img {
+  justify-content:right;
+    height: 379px;
+    box-sizing: border-box;
+    margin-right: -25px;
+}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1565,6 +1621,44 @@ p u {
     .servicio-titulo {
         font-size: 25px;
     }
+    /*/FORM/*/
+   .form-general{
+    height: 800px;
+   }
+   .section-1{
+    width: 100%;
+   }
+   
+   .titulo-form{
+    font-size: 50px;
+    width: 100%;
+
+   }
+    .form-registro {
+        height: 400px;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+  
+    .imagenForm{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+        align-items: flex-end;
+        margin: 0;
+        margin-top: -450px;
+      margin-bottom: -70px;
+    img{
+        height: 300px;
+        margin-bottom: -73px;
+    }
+    }
+    
+  
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -1836,6 +1930,57 @@ p u {
 
     .servicio-titulo {
         font-size: 25px;
+    }
+    /*/FORM/*/
+    .form-general{
+        box-sizing: border-box;
+       
+        width: 100%;
+        background-image: none ;
+        height: 1000px;
+        padding: 0;
+        background-color: #FFB217;
+    }
+    .section-form {
+        box-sizing: border-box;
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+        height: 900px;
+    }
+    .titulo-form{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        padding-top: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+    #texto-form{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .form-registro {
+        box-sizing: border-box;
+        width: 100%;
+        height: 300px;
+        padding-top: 0px;
+        margin-top: 0px;
+    
+    }
+    .section-1 {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 100px;
+        height: 200px;
+    }
+    .imagenForm{
+        display: none;
     }
 }
 
@@ -2176,6 +2321,74 @@ p u {
         padding: 0px;
 
     }
+       /*/FORM/*/
+       .form-general{
+        box-sizing: border-box;
+       
+        width: 100%;
+        background-image: none ;
+        height: 800px;
+        padding: 0;
+        background-color: #FFB217;
+    }
+    .section-form {
+        box-sizing: border-box;
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+        height: 500px;
+    }
+    .titulo-form{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        padding-top: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    #texto-form{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        font-size: 10px;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .form-registro {
+        box-sizing: border-box;
+        width: 100%;
+        height: 300px;
+        padding-top: 0px;
+        margin-top: 0px;
+    
+    }
+    .section-1 {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 100px;
+        height: 200px;
+    }
+    .imagenForm{
+        display: none;
+    }
+    .controls{
+        width: 100%;
+        font-size: 10px;
+    }
+    .controls-2{
+        width: 100%;
+        font-size: 10px;
+    }
+    .privacidad{
+        font-size: 8px;
+        width: 100%;
+    }
+    .cta-button3{
+        height: 30px;
+        font-size: 10px;
+        
+    }
 
 
 }
@@ -2292,7 +2505,7 @@ p u {
         padding: 0;
         display: flex;
         flex-direction: column;
-        height: 1500px;
+        height: 1600px;
     }
 
     .numeros-section {
@@ -2421,18 +2634,103 @@ p u {
         width: 100%;
         font-size: 10px;
         padding: 15px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
     .colum2 {
         display: none;
     }
-
+.cta-button2{
+    font-size: 10px;
+    height: 30px;
+}
     .servicio-titulo {
         font-size: 25px;
+        margin-top: 20px;
     }
 
     #serviciostitulo p {
         font-size: 20px;
     }
+    /*FORM*/
+.form-general{
+    box-sizing: border-box;
+    width: 100%;
+    background-image: none ;
+    height: 1000px;
+    padding: 2%;
+    background-color: #FFB217;
+}
+.section-form {
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    height: 600px;
+}
+.titulo-form{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#texto-form{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.form-registro {
+    height: 400px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 20px;
+    padding: 0;
+    margin-top: 0px;
+    margin:0;
+
+}
+#contacto.form-general{
+    height: 700px;
+}
+.controls{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.section-1 {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    height: 200px;
+}
+.imagenForm{
+    display: none;
+}
+.controls-2{
+    width: 100%;
+    font-size: 10px;
+}
+.privacidad{
+    box-sizing: border-box;
+    font-size: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.privacidad1{
+   font-size: 8px;}
+
+.cta-button3{
+    height: 30px;
+    font-size: 10px;
+    
+}
 }
