@@ -1845,8 +1845,8 @@ p u {
         display: none;
     }
 
-    
-    .footer {
+    .footer{display: none;}
+    /* .footer {
         box-sizing: border-box;
         width: 100%;
         height: 250px;
@@ -1891,7 +1891,7 @@ p u {
     .social-buttons2 {
         box-sizing: border-box;
         width: 100%;
-    }
+    } */
 
 
 }
@@ -2255,8 +2255,10 @@ p u {
     }
 
     /*/FOOTER/*/
-    
-    .footer {
+    .footer{
+        display: none;
+    }
+    /* .footer {
         box-sizing: border-box;
         width: 100%;
         height: 250px;
@@ -2309,7 +2311,7 @@ p u {
         width: 100%;
         padding: 0;
 
-    }
+    } */
 
 }
 
