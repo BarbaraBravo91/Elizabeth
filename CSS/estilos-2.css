@@ -3014,14 +3014,13 @@ p u {
         box-sizing: border-box;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
-        width: 100%;
+              width: 100%;
         margin: 0px;
         padding: 10px;
         padding-top: 15px;
-        height: 480px;
+        height: 490px;
         margin-bottom: 0;
-
+align-items: flex-end;
 
     }
 
