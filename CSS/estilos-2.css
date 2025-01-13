@@ -1113,6 +1113,7 @@ p u {
 
 .footer {
     background-color: #161616;
+    height: 300px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -1120,7 +1121,7 @@ p u {
 }
 
 .logo1 img {
-    width: 100%;
+    height: 100px;
     padding: 100px 0 0 100px;
 
 }
@@ -1174,10 +1175,6 @@ p u {
     padding-right: 0;
     width: 100%;
     box-sizing: border-box;
-}
-
-.mail-footer a {
-    padding-left: 100px;
 }
 
 /* Carrusel */
@@ -1400,7 +1397,7 @@ p u {
     .footer {
         box-sizing: border-box;
         width: 100%;
-
+        height: 250px;
     }
 
     .logo1 {
@@ -1417,8 +1414,7 @@ p u {
         box-sizing: border-box;
         width: 100%;
         padding: 0px;
-        padding-top: 90px;
-        padding-left: 70px;
+        padding-top: 75px;
         margin: 0px;
 
         a {
@@ -1816,7 +1812,7 @@ p u {
     .form-general {
         height: 850px;
         width: 100%;
-        background-color: #FFB217;
+        background-color:#FFB217;
     }
 
     .section-1 {
@@ -1829,7 +1825,7 @@ p u {
         height: 800px;
         width: 100%;
         border-radius: 0%;
-    }
+          }
 
     .titulo-form {
         font-size: 50px;
@@ -1849,12 +1845,13 @@ p u {
         display: none;
     }
 
-    .footer {
+    .footer{display: none;}
+    /* .footer {
         box-sizing: border-box;
         width: 100%;
+        height: 250px;
 
-
-    }
+          }
 
     .logo1 {
         box-sizing: border-box;
@@ -1869,8 +1866,8 @@ p u {
     .mail-footer {
         box-sizing: border-box;
         width: 100%;
-        padding: 100px;
-        padding-top: 90px;
+        padding: 0px;
+        padding-top: 75px;
         margin: 0px;
 
         a {
@@ -1894,7 +1891,7 @@ p u {
     .social-buttons2 {
         box-sizing: border-box;
         width: 100%;
-    }
+    } */
 
 
 }
@@ -2258,12 +2255,14 @@ p u {
     }
 
     /*/FOOTER/*/
-
-    .footer {
+    .footer{
+        display: none;
+    }
+    /* .footer {
         box-sizing: border-box;
         width: 100%;
-
-
+        height: 250px;
+      
     }
 
     .logo1 {
@@ -2281,12 +2280,13 @@ p u {
     .mail-footer {
         box-sizing: border-box;
         width: 100%;
-        padding: 50px;
-        padding-top: 110px;
+        padding: 0px;
+        padding-top: 100px;
         margin: 0px;
 
         a {
-
+            padding: 0;
+            margin: 0;
             color: #f3f4ee;
             font-size: 10px;
         }
@@ -2309,9 +2309,9 @@ p u {
     .social-buttons2 {
         box-sizing: border-box;
         width: 100%;
-        padding: 100px;
+        padding: 0;
 
-    }
+    } */
 
 }
 
@@ -2646,12 +2646,11 @@ p u {
         margin-left: 0;
         padding-bottom: 25px;
     }
-
-    .servicios1-section {
+    .servicios1-section{
         height: 550px;
         margin: 0;
         padding: 10px;
-        justify-content: center;
+        justify-content:center;
     }
 
     #palabras-colum-2 {
@@ -2745,74 +2744,10 @@ p u {
 
     }
 
-    /*/FOOTER/*/
-
     .footer {
-
-        flex-direction: column;
-        box-sizing: border-box;
-        width: 100%;
-        align-items: center;
-
+       display: none;
     }
 
-    .logo1 {
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-
-        img {
-            padding-top: 50px;
-            margin: 0;
-            width: 20%;
-        }
-    }
-
-    .mail-footer {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 0;
-
-        text-align: center;
-        margin: 0px;
-
-        a {
-            width: 100%;
-            color: #f3f4ee;
-            font-size: 10px;
-        }
-    }
-
-    .footer-items {
-        flex-direction: row;
-        box-sizing: border-box;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0;
-        padding-top: 20px;
-        text-align: center;
-
-        li {
-            width: 100%;
-            font-size: 10px;
-
-        }
-
-    }
-
-    .social-buttons2 {
-  align-items: center;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 10px;
-        padding-bottom: 50px;
-       
-a{
-    width: 100%;
-text-align: center;
-
-}
-    }
 
 }
 
@@ -3079,13 +3014,13 @@ text-align: center;
         box-sizing: border-box;
         flex-direction: column;
         justify-content: space-around;
-        width: 100%;
+              width: 100%;
         margin: 0px;
         padding: 10px;
         padding-top: 15px;
         height: 490px;
         margin-bottom: 0;
-        align-items: flex-end;
+align-items: flex-end;
 
     }
 
@@ -3104,8 +3039,8 @@ text-align: center;
     .cta-button2 {
         font-size: 10px;
         height: 30px;
-        width: 100%;
-
+    width: 100%;
+ 
     }
 
     .servicio-titulo {
@@ -3209,76 +3144,9 @@ text-align: center;
         font-size: 10px;
 
     }
-
-   /*/FOOTER/*/
-
-   .footer {
-
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 100%;
-    align-items: center;
-
-}
-
-.logo1 {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: center;
-
-    img {
-        padding-top: 50px;
-        margin: 0;
-        width: 20%;
+    .footer{
+        display: none;
     }
-}
-
-.mail-footer {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0;
-
-    text-align: center;
-    margin: 0px;
-
-    a {
-        width: 100%;
-        color: #f3f4ee;
-        font-size: 10px;
-    }
-}
-
-.footer-items {
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    padding-top: 20px;
-    text-align: center;
-
-    li {
-        width: 100%;
-        font-size: 10px;
-
-    }
-
-}
-
-.social-buttons2 {
-align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px;
-    padding-bottom: 50px;
-   
-a{
-width: 100%;
-text-align: center;
-
-}
-}
-
 }
 
 @media only screen and (max-width: 365px) {
@@ -3305,23 +3173,7 @@ text-align: center;
         font-size: 10px;
 
     }
-    .footer-items {
-        flex-direction: column;
-        box-sizing: border-box;
-        width: 100%;
-
-        padding: 0;
-        padding-top: 0px;
-        text-align: center;
-    margin: 0px;
-        li {
-            width: 100%;
-            font-size: 10px;
-            padding: 0px;
-            margin: 0px;
-    
-        }
-    
+    .footer{
+        display: none;
     }
-
 }
