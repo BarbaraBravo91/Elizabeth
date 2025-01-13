@@ -418,7 +418,7 @@
                     <p id="texto-form">Si te interesa trabajar conmigo o creés que puedo ayudarte, contactame para una
                         primera reunión.</p>
                 </div>
-                <div class="form-registro">
+                <form class="form-registro" action="https://formsubmit.co/elizabethstellavato@gmail.com" method="POST" id="contacto">
                     <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre y apellido">
                     <input class="controls" type="text" name="cargo" id="cargo" placeholder="Cargo">
                     <input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
@@ -432,14 +432,15 @@
                     <p class="privacidad">*Informamos que los datos que nos facilites se utilizarán con la finalidad de
                         atender las solicitudes o consultas realizadas, así como para mantenerte informado por correo
                         electrónico de novedades o servicios relacionados con Elizabeth Stellavato.</p>
-                </div>
+                    </form>
             </section>
             <div class="imagenForm">
                 <img src="imagenes/fotos ely para web_foto ely formulario.png" alt="">
             </div>
         </section>
     </section>
-    <footer class="footer">
+    <footer >
+        <div class="footer">
         <div class="logo1">
             <a href="#inicio"><img src="imagenes/PNG (logos)/Logo ES_isologo color.png" alt="Logo" /></a>
         </div>
@@ -460,6 +461,7 @@
                 <img src="imagenes/icons8-linkedin-50 (1).png" alt="LinkedIn" class="social-logo" />
             </a>
         </div>
+    </div>
     </footer>
 </body>
 
@@ -469,6 +471,7 @@
     menuToggle.addEventListener('click', () => {
         document.querySelector('.navbar').classList.toggle('open');
     })
+    
 </script>
 
 </html>
