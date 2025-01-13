@@ -1778,7 +1778,7 @@ p u {
         align-items: center;
         width: 100%;
         margin: 0px;
-        padding: 0px;
+        padding: 10px;
         height: 550px;
 
 
@@ -3013,13 +3013,13 @@ p u {
     .servicios1-section {
         box-sizing: border-box;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         width: 100%;
         margin: 0px;
         padding: 10px;
         padding-top: 15px;
-        height: 328px;
+        height: 380px;
         margin-bottom: 0;
 
 
@@ -3040,7 +3040,8 @@ p u {
     .cta-button2 {
         font-size: 10px;
         height: 30px;
-        align-items: center;
+    width: 100%;
+ 
     }
 
     .servicio-titulo {
@@ -3162,10 +3163,9 @@ p u {
 
     }
 
-    #servicios {
+    .servicios {
         box-sizing: border-box;
         margin: 0;
-
         height: 950px;
     }
 
