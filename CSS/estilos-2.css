@@ -693,6 +693,16 @@ h3 {
 }
 
 /* Pongamos en palabras */
+.trampolin {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 35px;
+}
 
 .palabras-section {
     box-sizing: border-box;
@@ -775,7 +785,6 @@ h3 {
 #palabras-item-3 {
     box-sizing: border-box;
     width: 100%;
-    height: 400px;
     align-items: center;
     margin-top: 10%;
     padding: 25px;
@@ -1617,6 +1626,7 @@ p u {
     .cta-button {
         width: 100px;
         font-size: 11px;
+
     }
 
     .problem-item2 {
@@ -1669,6 +1679,12 @@ p u {
     }
 
     /*/CONOCEME/*/
+    #conoceme1{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
     .conoceme-titulo {
         padding: 50px;
         padding-bottom: 0;
@@ -1686,54 +1702,59 @@ p u {
         padding: 0;
         display: flex;
         flex-direction: row;
-        height: 1000px;
-        width: 100%;
+             width: 100%;
     }
-
     .numeros-section {
+        box-sizing: border-box;
+width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 0px;
-        width: 100%;
     }
 
     .numeros-1 {
-
-        margin-bottom: -100px;
+        box-sizing: border-box;
+        width: 100%;
+       padding: 0;
+       padding-left: 10px;
+       margin: 0;
     }
 
     .numeros-2 {
-        width: 300px;
-        padding: 50px 50px 0px 50px;
-        margin-top: -50px;
-
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
 
     }
 
+
     .trampolin {
-        width: 600px;
-        margin-left: 200px;
-        margin-top: 20px;
-        margin-right: 5px;
+        width: 100%;
+        margin-left: 50px;
+        margin-top: 0px;
         margin-bottom: 0;
         padding: 0;
         font-size: 35px;
     }
 
-    .palabras-item-3 {}
+
+    .palabras-item-3 {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
 
     .img-palabras {
-        margin-top: -90px;
-        padding-left: 10px;
-        padding-top: 100px;
-        width: 100%;
+        padding: 0px;
+        margin: 0;
     }
 
     .palabra-p1 {
         width: 100%;
         font-size: 15px;
         margin: 0;
-        padding-bottom: 25px;
+
     }
 
     /* Pongamos en palabras */
@@ -1850,53 +1871,8 @@ p u {
     }
 
     .footer {
-        box-sizing: border-box;
-        width: 100%;
-
-
+        display: none;
     }
-
-    .logo1 {
-        box-sizing: border-box;
-        width: 100%;
-
-        img {
-            padding: 50px;
-            padding-top: 75px;
-        }
-    }
-
-    .mail-footer {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 100px;
-        padding-top: 90px;
-        margin: 0px;
-
-        a {
-            padding: 0;
-            margin: 0;
-            color: #f3f4ee;
-        }
-    }
-
-    .footer-items {
-        box-sizing: border-box;
-        padding: 0;
-        padding-top: 75px;
-
-        li {
-            font-size: 15px;
-
-        }
-    }
-
-    .social-buttons2 {
-        box-sizing: border-box;
-        width: 100%;
-    }
-
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -2050,22 +2026,23 @@ p u {
     }
 
     .numeros-section {
-
+        box-sizing: border-box;
+width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 0px;
     }
 
     .numeros-1 {
-
-        margin-bottom: -100px;
+        box-sizing: border-box;
+        width: 100%;
+       padding: 0;
+       margin: 0;
     }
 
     .numeros-2 {
-        width: 300px;
-        padding: 50px 50px 0px 50px;
-        margin-top: -50px;
-
+        box-sizing: border-box;
+        width: 100%;
 
     }
 
@@ -2361,7 +2338,7 @@ p u {
     .lohabiaspensado {
         display: flex;
         flex-direction: column;
-        height: 300px;
+
 
 
     }
@@ -2401,7 +2378,7 @@ p u {
 
     #caja1 {
         align-self: center;
-        height: 200px;
+
         padding-top: 0px;
         padding-left: 0px;
 
@@ -2462,7 +2439,7 @@ p u {
     .problems-section {
         display: flex;
         flex-direction: column;
-        height: 800px;
+        padding: 50px;
         margin-top: 0;
         box-sizing: border-box;
 
@@ -2484,12 +2461,12 @@ p u {
         padding-bottom: 0;
         padding-top: 0;
         margin-top: -25px;
-        height: 100px;
+
         align-items: center;
     }
 
     .problem-item {
-        height: 150px;
+
         width: 100%;
         margin-bottom: 10px;
         padding: 30px;
@@ -2504,7 +2481,7 @@ p u {
     }
 
     .problem-item2 {
-        height: 150px;
+
         width: 100%;
         margin-bottom: 10px;
         padding: 30px;
@@ -2519,7 +2496,7 @@ p u {
     }
 
     .problem-item3 {
-        height: 150px;
+
         width: 100%;
         margin-bottom: 10px;
         padding: 30px;
@@ -2535,10 +2512,11 @@ p u {
 
     .problem-item4 {
 
-        height: 150px;
+
         width: 100%;
         margin-bottom: 10px;
         padding: 30px;
+
         border-radius: 50px;
 
         p {
@@ -2590,7 +2568,7 @@ p u {
     padding-left: 75px;
     margin-top: 50px; */
         box-sizing: border-box;
-        margin: 5px;
+        margin: 0px;
         align-items: center;
         width: 100%;
     }
@@ -2601,9 +2579,8 @@ p u {
 
     .numeros-2 {
         width: 100%;
-        padding: 50px 50px 0px 50px;
-        margin-top: -50px;
-        box-sizing: border-box;
+      
+      box-sizing: border-box;
         text-align: center;
 
     }
@@ -2620,18 +2597,18 @@ p u {
         padding-bottom: 50px;
 
         font-size: 25px;
+       
     }
 
     .palabras-item-3 {
         box-sizing: border-box;
+        width: 100%;
     }
 
     .img-palabras {
         box-sizing: border-box;
-        margin-top: -15px;
-        padding-left: 10px;
-        padding-top: 100px;
-        margin-left: 10px;
+       margin: 0;
+       padding: 0;
         width: 100%;
     }
 
@@ -2661,6 +2638,19 @@ p u {
         margin: 0px;
         padding: 0px;
 
+    }
+    #palabras-item-3 {
+        box-sizing: border-box;
+        width: 100%;
+        align-items: center;
+                padding: 0px;
+       justify-content: space-between;
+        font-size: 1rem;
+        padding: 0;
+        img{
+            
+            width: 400px;
+        }
     }
 
     /*/FORM/*/
@@ -2740,7 +2730,7 @@ p u {
     }
 
     .cta-button3 {
-        height: 30px;
+        height: 20px;
         font-size: 10px;
 
     }
@@ -2748,70 +2738,7 @@ p u {
     /*/FOOTER/*/
 
     .footer {
-
-        flex-direction: column;
-        box-sizing: border-box;
-        width: 100%;
-        align-items: center;
-
-    }
-
-    .logo1 {
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-
-        img {
-            padding-top: 50px;
-            margin: 0;
-            width: 20%;
-        }
-    }
-
-    .mail-footer {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 0;
-
-        text-align: center;
-        margin: 0px;
-
-        a {
-            width: 100%;
-            color: #f3f4ee;
-            font-size: 10px;
-        }
-    }
-
-    .footer-items {
-        flex-direction: row;
-        box-sizing: border-box;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0;
-        padding-top: 20px;
-        text-align: center;
-
-        li {
-            width: 100%;
-            font-size: 10px;
-
-        }
-
-    }
-
-    .social-buttons2 {
-  align-items: center;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 10px;
-        padding-bottom: 50px;
-       
-a{
-    width: 100%;
-text-align: center;
-
-}
+        display: none;
     }
 
 }
@@ -2843,9 +2770,9 @@ text-align: center;
         width: 100%;
         display: flex;
         flex-direction: column;
-        height: 900px;
+
         margin: 0;
-        padding: 0;
+        padding: 100x;
 
     }
 
@@ -2958,7 +2885,7 @@ text-align: center;
         padding: 0;
         display: flex;
         flex-direction: column;
-        height: 1600px;
+
     }
 
     .numeros-section {
@@ -2995,7 +2922,10 @@ text-align: center;
         font-size: 25px;
     }
 
-    .palabras-item-3 {}
+    .palabras-item-3 {
+        box-sizing: border-box;
+        width: 100%;
+    }
 
     .img-palabras {
         margin-top: 20px;
@@ -3034,6 +2964,11 @@ text-align: center;
         margin-left: 0px;
 
 
+    }
+
+    #palabras-item3 {
+        box-sizing: border-box;
+        width: 100%;
     }
 
     .palabras-section {
@@ -3210,74 +3145,74 @@ text-align: center;
 
     }
 
-   /*/FOOTER/*/
+    /*/FOOTER/*/
 
-   .footer {
+    .footer {
 
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 100%;
-    align-items: center;
-
-}
-
-.logo1 {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: center;
-
-    img {
-        padding-top: 50px;
-        margin: 0;
-        width: 20%;
-    }
-}
-
-.mail-footer {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0;
-
-    text-align: center;
-    margin: 0px;
-
-    a {
+        flex-direction: column;
+        box-sizing: border-box;
         width: 100%;
-        color: #f3f4ee;
-        font-size: 10px;
+        align-items: center;
+
     }
-}
 
-.footer-items {
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    padding-top: 20px;
-    text-align: center;
-
-    li {
+    .logo1 {
+        box-sizing: border-box;
         width: 100%;
-        font-size: 10px;
+        text-align: center;
+
+        img {
+            padding-top: 50px;
+            margin: 0;
+            width: 20%;
+        }
+    }
+
+    .mail-footer {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+
+        text-align: center;
+        margin: 0px;
+
+        a {
+            width: 100%;
+            color: #f3f4ee;
+            font-size: 10px;
+        }
+    }
+
+    .footer-items {
+        flex-direction: row;
+        box-sizing: border-box;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        padding-top: 20px;
+        text-align: center;
+
+        li {
+            width: 100%;
+            font-size: 10px;
+
+        }
 
     }
 
-}
+    .social-buttons2 {
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 50px;
 
-.social-buttons2 {
-align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px;
-    padding-bottom: 50px;
-   
-a{
-width: 100%;
-text-align: center;
+        a {
+            width: 100%;
+            text-align: center;
 
-}
-}
+        }
+    }
 
 }
 
@@ -3305,6 +3240,7 @@ text-align: center;
         font-size: 10px;
 
     }
+
     .footer-items {
         flex-direction: column;
         box-sizing: border-box;
@@ -3313,15 +3249,16 @@ text-align: center;
         padding: 0;
         padding-top: 0px;
         text-align: center;
-    margin: 0px;
+        margin: 0px;
+
         li {
             width: 100%;
             font-size: 10px;
             padding: 0px;
             margin: 0px;
-    
+
         }
-    
+
     }
 
 }
