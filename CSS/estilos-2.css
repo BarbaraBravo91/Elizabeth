@@ -877,7 +877,7 @@ h3 {
     align-items: center;
     justify-content: space-around;
     color: #161616;
-    height: 700px;
+ 
     text-align: left;
     padding-left: 0;
     padding-right: 0;
@@ -888,7 +888,7 @@ h3 {
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    height: 550px;
+    
     padding: 0;
     border-radius: 25px;
 }
@@ -896,7 +896,7 @@ h3 {
 .colum2 img {
     box-sizing: border-box;
     width: 100%;
-    height: 500px;
+ 
     margin-top: -50px;
     padding: 30px;
     border-radius: 50px;
@@ -1779,8 +1779,7 @@ p u {
         width: 100%;
         margin: 0px;
         padding: 10px;
-        height: 550px;
-
+        
 
     }
 
@@ -2167,7 +2166,7 @@ p u {
         width: 100%;
         margin: 0px;
         padding: 0px;
-        height: 550px;
+     
 
 
     }
@@ -2176,20 +2175,14 @@ p u {
         box-sizing: border-box;
         width: 100%;
         font-size: 10px;
-        padding: 15px;
+        padding: 50px;
+        margin: 0;
+        height: auto;
     }
 
-    .colum2 {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 0;
-        margin: 0;
 
-        img {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
+    .colum2 {
+    display: none;
     }
 
     .servicio-titulo {
@@ -2647,7 +2640,7 @@ p u {
         padding-bottom: 25px;
     }
     .servicios1-section{
-        height: 550px;
+  
         margin: 0;
         padding: 10px;
         justify-content:center;
@@ -2660,6 +2653,17 @@ p u {
         margin: 0px;
         padding: 0px;
 
+    }
+    .colum1 {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 10px;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .colum2 {
+display: none;
     }
 
     /*/FORM/*/
@@ -3018,7 +3022,7 @@ p u {
         margin: 0px;
         padding: 10px;
         padding-top: 15px;
-        height: 490px;
+     
         margin-bottom: 0;
 align-items: flex-end;
 
