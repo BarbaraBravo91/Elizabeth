@@ -1,6 +1,7 @@
 :root {
   --naranja: #ff5c22;
   --violeta: #e0a5ff;
+  --marquee-duration: 30s;
 }
 
 * {
@@ -285,7 +286,7 @@ h3 {
   justify-content: space-evenly;
   /* Asegura que las imágenes se alineen en una sola línea */
   position: static;
-  animation: scroll 30s linear infinite;
+  animation: scroll var(--marquee-duration) linear infinite;
   will-change: transform;
 }
 
@@ -1845,6 +1846,10 @@ p u {
 }
 
 @media only screen and (max-width: 991px) {
+  :root {
+    --marquee-duration: 10s;
+  }
+
   #palabras-item-3 p {
     background-position: left -20px top 4px;
   }
@@ -2264,6 +2269,10 @@ p u {
 
   .hamburguesa {
     display: block;
+    font-size: 2rem;
+    background-color: #f4f4ee;
+    border: none;
+    justify-content: center;
   }
 
   .nav-items {
@@ -2273,7 +2282,7 @@ p u {
   }
 
   .navbar.open {
-    background-color: white;
+    background-color: #f4f4ee;
   }
 
   .navbar.open .nav-items {
