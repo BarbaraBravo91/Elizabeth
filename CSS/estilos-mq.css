@@ -1,489 +1,412 @@
-
-@media (min-width: 500px) and (max-width:768px) {
-    #inicio{
-        height: 250px;
-        margin: 0;
-        
-    }
-    .header-content {
-        display: flex;
-        flex-direction: column;
-      margin:25px;
- height: 250px;
-        h1{
-            font-size: 20px;
-            font-weight: 10px;
-            padding: 15%;
-            padding-bottom: 0%;
-           
-        }
-
-        p {
-            font-size: 12px; /* Tamaño de fuente de los párrafos */
-         padding-left:15px;
-         padding-top: -55px;
-         padding-right: 25px;
-         margin: 0px;
-        }
-
+@media (min-width: 500px) and (max-width: 768px) {
+  #inicio {
+    height: 250px;
+    margin: 0;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    height: 250px;
+    h1 {
+      font-size: 20px;
+      font-weight: 10px;
+      padding: 15%;
+      padding-bottom: 0%;
     }
 
-  
-
-    .cta-button {
-       
-            font-size: 15px;
-                width: 100px; /* Ajustar el tamaño del botón */
-        margin-left: 0px; 
-       
+    p {
+      font-size: 12px; /* Tamaño de fuente de los párrafos */
+      padding-left: 15px;
+      padding-top: -55px;
+      padding-right: 25px;
+      margin: 0px;
     }
+  }
 
-    .navbar {
-        flex-direction: row; /* Cambiar a columna para el menú hamburguesa */
-        position: absolute;
-        justify-content: space-between;
-       margin-top: 0px;
+  .cta-button {
+    font-size: 15px;
+    width: 100px; /* Ajustar el tamaño del botón */
+    margin-left: 0px;
+  }
 
-      
-    }
+  .navbar {
+    flex-direction: row; /* Cambiar a columna para el menú hamburguesa */
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
 
   .hamburguesa {
-        display: block; /* Mostrar el botón hamburguesa en pantallas pequeñas */
-        cursor: pointer;
-        font-size: 15px; /* Tamaño del icono hamburguesa */
-       margin:0px;
-      
-    }
+    display: block; /* Mostrar el botón hamburguesa en pantallas pequeñas */
+    cursor: pointer;
+    font-size: 15px; /* Tamaño del icono hamburguesa */
+    margin: 0px;
+  }
 
-    .responsive-logo {
-        width: 80%; /* Ajustar el tamaño del logo */
-        max-width: 150px; /* Máximo tamaño para logo */
-    }
+  .responsive-logo {
+    width: 80%; /* Ajustar el tamaño del logo */
+    max-width: 150px; /* Máximo tamaño para logo */
+  }
 
-    .social-buttons {
-        display: none; /* Quitar los social buttons */
-    }
+  .social-buttons {
+    display: none; /* Quitar los social buttons */
+  }
 
-    
+  .nav-items {
+    display: flex; /* Mostrar el menú cuando está activo */
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    background-color: antiquewhite;
+  }
+  .nav-items li a {
+    text-decoration: none;
+    color: var(--naranja);
+  }
 
+  /* Modificar el estilo de los enlaces en el menú */
+  .nav-items li {
+    margin: 5px 0; /* Espaciado vertical entre los elementos */
+  }
 
-
-    .nav-items {
-       
-        display: flex; /* Mostrar el menú cuando está activo */
-        gap: 1rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        flex-direction: column;
-        background-color: antiquewhite;
-
-    }
-    .nav-items li a {
-        text-decoration: none;
-        color: var(--naranja);
-
-    }
-
-    /* Modificar el estilo de los enlaces en el menú */
-    .nav-items li {
-        margin: 5px 0; /* Espaciado vertical entre los elementos */
-    }
-    
-    .conoceme-titulo{
-        padding: 50px;
-        padding-bottom: 0;
-        font-size: 25px;
-    }
-    .conoceme-parrafo{
-        padding: 50px;
-        padding-top: 15px;
-        padding-bottom: 75px;
-        font-size: 15px;
-    }
-    .contenedorGeneral{
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        height: 1800px;
-    }
-    .numeros-section{
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-    }
-    .numeros-contenedor{
-
-    }
-.numeros-1{
+  .conoceme-titulo {
+    padding: 50px;
+    padding-bottom: 0;
+    font-size: 25px;
+  }
+  .conoceme-parrafo {
+    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 75px;
+    font-size: 15px;
+  }
+  .contenedorGeneral {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 1800px;
+  }
+  .numeros-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .numeros-contenedor {
+  }
+  .numeros-1 {
     /* padding: 100px;
     padding-left: 75px;
     margin-top: 50px; */
-  margin-bottom: -100px;
-}
-.numeros-2{
+    margin-bottom: -100px;
+  }
+  .numeros-2 {
     width: 300px;
     padding: 50px 50px 0px 50px;
-   margin-top: -50px;
-   
-   
-}
+    margin-top: -50px;
+  }
 
-.trampolin{
+  .trampolin {
     width: 100%;
-margin-left:10px;
-margin-top: 15px;
-margin-right: 5px;
-margin-bottom: 0;
-  padding: 0;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding: 0;
     font-size: 25px;
-}
-.palabras-item-3{
-
-}
-.img-palabras{
+  }
+  .palabras-item-3 {
+  }
+  .img-palabras {
     margin-top: -25px;
-    padding-left:10px;
+    padding-left: 10px;
     padding-top: 200px;
     width: 400px;
-}
-.palabra-p1{
+  }
+  .palabra-p1 {
     width: 300px;
     font-size: 15px;
     margin: 0;
-}
-#contenedor {
-    width:100%;
-        display: flex;
-        flex-direction: column;
-        align-items:left;
-        margin: 0%;
-    }
-.about-image{
+  }
+  #contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0%;
+  }
+  .about-image {
     height: 500px;
     margin-top: -185px;
     padding-left: 0;
-   
-}
-#caja1 {
+  }
+  #caja1 {
     align-self: center;
     height: 200px;
     padding-top: 0px;
     padding-left: 0px;
-  
-}
-.caja2 {
+  }
+  .caja2 {
     width: 100%;
     height: 600px;
-    padding:0px ;
-   
+    padding: 0px;
+
     margin: 0;
- p {
-    font-size: 20px;    
-    margin-left: 50px;
- }
-
-
-}
-#contenedor-2{
-margin: 0;
-padding: 0px;
-}
-#caja3 {
-margin:0;
-font-size: 10px;
-padding: 0px;
-p{
-    margin-top:0px ;
-}
-}
-.caja-p{
-font-size: 10px;
-margin: 0px;
-padding: 5px;
-
-
-}
-.elemento{
-    width:100% ;
+    p {
+      font-size: 20px;
+      margin-left: 50px;
+    }
+  }
+  #contenedor-2 {
+    margin: 0;
+    padding: 0px;
+  }
+  #caja3 {
+    margin: 0;
+    font-size: 10px;
+    padding: 0px;
+    p {
+      margin-top: 0px;
+    }
+  }
+  .caja-p {
+    font-size: 10px;
+    margin: 0px;
+    padding: 5px;
+  }
+  .elemento {
+    width: 100%;
     height: 500px;
     padding: 15px;
-    margin:0px;
-     
-    p{
-        font-size: 20px;
-        padding-top: 50px;
-        width: 100%;
-        margin: 0;
-    
+    margin: 0px;
+
+    p {
+      font-size: 20px;
+      padding-top: 50px;
+      width: 100%;
+      margin: 0;
     }
 
-    h3{
-        font-size: 50px;
-     }
-   
-}
-/*Problemas*/
-.problems-section{
+    h3 {
+      font-size: 50px;
+    }
+  }
+  /*Problemas*/
+  .problems-section {
     display: flex;
     flex-direction: column;
     height: 2000px;
- margin-top: 0;
-   
-}
-.problem-colum-2{
+    margin-top: 0;
+  }
+  .problem-colum-2 {
     display: flex;
     flex-direction: column;
-    margin:0;
+    margin: 0;
     width: 100%;
-    padding-left:25px;
-}
-.problem-item{
-  
+    padding-left: 25px;
+  }
+  .problem-item {
     height: 250px;
     width: 350px;
-    margin:0;
+    margin: 0;
     margin-top: 0;
     padding-top: 85px;
     padding-bottom: 0px;
     border-radius: 50px;
     margin-bottom: 20px;
-}
-.problem-item2{
-  
-    height: 250px;
-    width: 350px;
-    margin:0;
-    margin-top: 0;
-    padding-top: 85px;
-    padding-bottom: 0px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-}
-.problem-item3{
-  
-    height: 250px;
-    width: 350px;
-    margin:0;
-    margin-top: 0;
-    padding-top: 85px;
-    padding-bottom: 0px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-}
-.problem-item4{
-  
-    height: 250px;
-    width: 350px;
-    margin:0;
-    margin-top: 0;
-    padding-top: 85px;
-    padding-bottom: 0px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-}
-/*SERVICIOS*/
-.serviciostitulo{
-    p{
-        font-size: 20px;
+  }
+
+  /*SERVICIOS*/
+  .serviciostitulo {
+    p {
+      font-size: 20px;
     }
-}
-.servicios-subtitulo{
+  }
+  .servicios-subtitulo {
     flex-direction: column;
     align-items: center;
-}
-.servicios-section{
+  }
+  .servicios-section {
     flex-direction: column;
-}
-.servicios1-section{
-flex-direction: column;
-justify-content: none;
-align-items: center;
-width: 100%;
-margin: 0px;
-padding: 0px;
-
-
-}
-.colum1{
+  }
+  .servicios1-section {
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .colum1 {
     flex-direction: column;
     width: 100%;
-}
-.colum2 {
-    img{
-        height: 200px;
+  }
+  .colum2 {
+    img {
+      height: 200px;
     }
-}
-.servicio-titulo{
+  }
+  .servicio-titulo {
     font-size: 25px;
-}
-/*FORM*/
-.form-general{
+  }
+  /*FORM*/
+  .form-general {
     width: 100%;
-    background-image: none ;
+    background-image: none;
     height: 1000px;
     padding: 2%;
-    background-color: #FFB217;
-}
-.section-form {
+    background-color: #ffb217;
+  }
+  .section-form {
     flex-direction: column;
     padding: 0%;
     height: 900px;
-}
-.titulo-form{
+  }
+  .titulo-form {
     font-size: 20px;
-}
-#texto-form{
+  }
+  #texto-form {
     padding-top: 5px;
     font-size: 15px;
-}
-.form-registro {
+  }
+  .form-registro {
     height: 400px;
     width: 200px;
     padding-top: 20px;
     margin-top: 0px;
-
-}
-.section-1 {
+  }
+  .section-1 {
     margin-top: 100px;
     height: 200px;
+  }
 }
+
+@media (max-width: 768px) {
+  #inicio {
+    background-image: none;
+    height: 400px;
+    margin: 0;
+  }
+
+  .header-content {
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 0px;
+
+    p {
+      font-size: 10px;
+      text-align: left;
+      font-weight: 2px;
+      margin-left: 15px;
+      margin-right: 5px;
+      margin-bottom: -25px;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: 10px;
+      padding-top: 5%;
+      padding-bottom: 0%;
+      padding-left: 25px;
+      margin-top: -25px;
+    }
+  }
+  h2 {
+    font-size: 35px;
+  }
+
+  .cta-button {
+    position: relative;
+    width: 150px;
+    color: #161616;
+    padding: 5px 5px;
+
+    font-size: 10px;
+    margin-top: 0;
+    margin-left: inherit;
+  }
+  .hamburguesa {
+    position: absolute;
+    display: block; /* Mostrar el botón hamburguesa en pantallas pequeñas */
+    cursor: pointer;
+    font-size: 30px; /* Tamaño del icono hamburguesa */
+    margin: 10px 500px; /* Espaciado */
+  }
+  .nav-items {
+    display: none; /* Ocultar el menú navegante inicialmente */
+    flex-direction: row; /* Alinear los items de la lista en vertical */
+
+    width: 100%; /* Ancho del menú */
+
+    li {
+      display: none;
+    }
+  }
+
+  .nav-items.active {
+    display: flex; /* Mostrar el menú cuando está activo */
+  }
+
+  /* pongamos*/
+
+  .palabras-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  #palabras-item {
+    width: 100%;
+    margin: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .cta-button3 {
+    width: 100px;
+    font-size: 10px;
+    margin-left: 50%;
+  }
+  #palabras-colum-2 {
+    margin: 0;
+    padding: 0;
+    width: 450px;
+  }
+  #palabras-item-2 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+  }
+  .palabra-p1 {
+    margin: 0px;
+    font-size: 14px;
+  }
 }
 
-
-@media(max-width:768px){
-    #inicio{
-        background-image:none;
-        height: 400px;
-        margin: 0;
-        
-    }
-   
-
-        .header-content {
-            height:100px;
-            width: 100%;
-            padding-top: 50px;
-            padding-left: 0px;
-            
-
-            p{ font-size: 10px;
-            text-align: left;
-        font-weight: 2px;
-    margin-left: 15px;
-margin-right: 5px;
-margin-bottom: -25px;}
-
-h1{
-    font-size: 25px;
-    font-weight: 10px;
-    padding-top: 5%;
-    padding-bottom: 0%;
-   padding-left: 25px;
-    margin-top: -25px;
-}
-   
-        }
-        h2{
-            font-size: 35px;
-        }
-            
-        .cta-button{
-            position: relative;
-            width: 150px;
-            color: #161616;
-            padding: 5px 5px;
-           
-            font-size: 10px;
-            margin-top:0;
-            margin-left: inherit;
-            
-        }
-        .hamburguesa {
-            position: absolute;
-            display: block; /* Mostrar el botón hamburguesa en pantallas pequeñas */
-            cursor: pointer;
-            font-size: 30px; /* Tamaño del icono hamburguesa */
-            margin: 10px 500px; /* Espaciado */
-        }
-        .nav-items {
-            display: none; /* Ocultar el menú navegante inicialmente */
-            flex-direction: row; /* Alinear los items de la lista en vertical */
-         
-            width: 100%; /* Ancho del menú */
-    
-            li{
-                display: none;
-            }
-           
-        }
-    
-    
-        .nav-items.active {
-            display: flex; /* Mostrar el menú cuando está activo */
-        }
-        
-        /* pongamos*/
-
-        .palabras-section {
-            flex-direction:column ;
-            width: 100%;
-        }
-        #palabras-item{
-            width: 100%;
-            margin: 10px;
-            font-size: 30px;
-            padding-left: 20px;
-        }
-        .cta-button3{
-            width: 100px;
-            font-size: 10px;
-            margin-left: 50%;
-        }
-        #palabras-colum-2 {
-            margin:0;
-            padding: 0;
-            width: 450px;
-        }
-        #palabras-item-2{
-            font-size: 20px;
-            margin: 0px;
-            padding: 10px;
-            width: 100%;
-        }
-        .palabra-p1{
-          
-            margin: 0px;
-            font-size: 14px;
-        }
-          } 
-          
-@media(max-width:768px){
-    .lohabiaspensado {
-        display: flex;
-        flex-direction: column;
-        height: 300px;
-      
-    }
-    .lohabiaspensado1{
-font-size: 28px;
-padding: 25px;
-margin: 0;
-width: 100%;
-text-align: left;
-    }
-    .lohabiaspensado2 {
-        text-align: left;
-        font-size: 15px;
-      padding: 25px;
-      margin: 0;
-    
-    }
+@media (max-width: 768px) {
+  .lohabiaspensado {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  .lohabiaspensado1 {
+    font-size: 28px;
+    padding: 25px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .lohabiaspensado2 {
+    text-align: left;
+    font-size: 15px;
+    padding: 25px;
+    margin: 0;
+  }
 }
 
 /*Problemas*/
-@media(max-width:578px){
-   
+@media (max-width: 578px) {
 }
 /*Conoceme*/
