@@ -844,17 +844,6 @@ h3 {
   border-radius: 25px;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-    /* Desplaza todo el ancho de una fila de logos */
-  }
-}
-
 .servicios1-section {
   box-sizing: border-box;
   display: flex;
