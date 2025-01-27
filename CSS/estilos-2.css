@@ -585,7 +585,7 @@ h3 {
   background-position: -10px -10px;
   background-size: 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .problem-item2 {
@@ -1223,7 +1223,7 @@ p u {
     width: 350px;
     margin: 10px;
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 1rem;
     border-radius: 50px;
     margin-bottom: 0px;
 
@@ -1547,7 +1547,7 @@ p u {
     width: 350px;
     margin: 5px;
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 1rem;
     border-radius: 50px;
     margin-bottom: 0px;
 
@@ -2719,7 +2719,7 @@ p u {
     padding: 25px;
     border-radius: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     p {
       font-size: 13px;
