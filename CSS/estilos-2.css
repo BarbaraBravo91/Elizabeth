@@ -1,7 +1,7 @@
 :root {
   --naranja: #ff5c22;
   --violeta: #e0a5ff;
-  --marquee-duration: 30s;
+  --marquee-transition: -50%;
 }
 
 * {
@@ -286,7 +286,7 @@ h3 {
   justify-content: space-evenly;
   /* Asegura que las imágenes se alineen en una sola línea */
   position: static;
-  animation: scroll var(--marquee-duration) linear infinite;
+  animation: scroll 30s linear infinite;
   will-change: transform;
 }
 
@@ -306,7 +306,7 @@ h3 {
   }
 
   100% {
-    transform: translateX(-50%);
+    transform: translateX(var(--marquee-transition));
     /* Desplaza todo el ancho de una fila de logos */
   }
 }
@@ -1847,7 +1847,7 @@ p u {
 
 @media only screen and (max-width: 991px) {
   :root {
-    --marquee-duration: 10s;
+    --marquee-transition: -300%;
   }
 
   #palabras-item-3 p {
